@@ -8,7 +8,7 @@ Welcome to the team! We're excited to have you on board as a new Frontend Develo
 Before you start, ensure you have the following:
 - A computer with administrative access.
 - Internet connection.
-- An active RP account.
+- An active RiskPhysics account.
 - Access to the team's repository on Azure DevOps (request access if not already provided).
 
 #### Step 1: Install Required Software
@@ -65,7 +65,7 @@ Before you start, ensure you have the following:
 
 1. **Clone the repository**: 
     ```bash 
-    git clone https://rp@dev.azure.com/rp/RP/_git/rp-portal-shell
+    git clone https://rp@dev.azure.com/rp/RiskPhysics/_git/rp-portal-shell
     ````
 2. **Install dependencies**: 
     ```bash
@@ -87,7 +87,7 @@ Before you start, ensure you have the following:
 #### Step 4: Additional Resources and Support
 
 1. **Documentation**
-   - Familiarize yourself with the project’s documentation available in the repository’s [README.md file](https://rp@dev.azure.com/rp/RP/_git/rp-portal-shell) or the project wiki.
+   - Familiarize yourself with the project’s documentation available in the repository’s [README.md file](https://rp@dev.azure.com/rp/RiskPhysics/_git/rp-portal-shell) or the project wiki.
 
 2. **Team Communication**
    - Join the team’s communication channels in Google Chat and introduce yourself.

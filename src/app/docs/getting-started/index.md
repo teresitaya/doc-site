@@ -1,6 +1,6 @@
 # {{ NgDocPage.title }}
 
-Welcome to the RP Engineering Team! This guide will help you get familiar with our documentation, workflows, architecture, and standards. Below is a table summarizing the key categories:
+Welcome to the RiskPhysics Engineering Team! This guide will help you get familiar with our documentation, workflows, architecture, and standards. Below is a table summarizing the key categories:
 
 | **Category**                | **Description**                                                                                                   |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------|

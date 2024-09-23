@@ -1,7 +1,7 @@
 # CI/CD Workflow
 
 
-This document provides a detailed overview of the CI/CD Workflow defined for RP development process. The primary objectives are to simplify the deployment process, guarantee the quality of the code, and uphold a systematic methodology for the roll-out of new features and updates. This guide encompasses the journey from code creation to production deployment, emphasizing crucial steps, checkpoints, and responsibilities.
+This document provides a detailed overview of the CI/CD Workflow defined for RiskPhysics development process. The primary objectives are to simplify the deployment process, guarantee the quality of the code, and uphold a systematic methodology for the roll-out of new features and updates. This guide encompasses the journey from code creation to production deployment, emphasizing crucial steps, checkpoints, and responsibilities.
 
 ### CI/CD Workflow Overview
 
@@ -54,4 +54,4 @@ The CI/CD workflow consists of the following stages:
 - **Outcome**: Public Release Notes is wrote.
 
 #### Conclusion
-Adhering to this CI/CD workflow ensures a consistent, high-quality approach to software development and deployment at RP. By following the detailed steps and utilizing the specified tools, we can achieve a reliable and efficient CI/CD process, leading to better collaboration, minimized errors, and faster recovery from issues.
+Adhering to this CI/CD workflow ensures a consistent, high-quality approach to software development and deployment at RiskPhysics. By following the detailed steps and utilizing the specified tools, we can achieve a reliable and efficient CI/CD process, leading to better collaboration, minimized errors, and faster recovery from issues.
