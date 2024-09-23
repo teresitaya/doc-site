@@ -2,7 +2,7 @@
 
 ### Onboarding Process for New Frontend Developer
 
-Welcome to the team! We're excited to have you on board as a new frontend developer. This document will guide you through the onboarding process and help you set up your local development environment with the necessary tools and preconditions.
+Welcome to the team! We're excited to have you on board as a new Frontend Developer. This document will guide you through the onboarding process and help you set up your local development environment with the necessary tools and preconditions.
 
 #### Pre-Onboarding Checklist
 Before you start, ensure you have the following:

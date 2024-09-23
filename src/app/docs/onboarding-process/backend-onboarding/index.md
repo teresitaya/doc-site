@@ -1,5 +1,5 @@
 # {{ NgDocPage.title }}
-Welcome to the team! We are excited to have you on board as a new backend developer. This document will guide you through the onboarding process and help you set up your local development environment with the necessary tools and configurations for C# .NET Core and Google Cloud.
+Welcome to the team! We are excited to have you on board as a new Backend Developer. This document will guide you through the onboarding process and help you set up your local development environment with the necessary tools and configurations for C# .NET Core and Google Cloud.
 
 #### Pre-Onboarding Checklist
 Before you start, ensure you have the following:
@@ -112,7 +112,7 @@ Before you start, ensure you have the following:
 #### Step 5: Additional Resources and Support
 
 1. **Documentation**
-   - Familiarize yourself with the project’s documentation available in the repository’s [README.md file](https://github.com/organization/project-backend) or the project wiki.
+   - Familiarize yourself with the project’s documentation available in the repository’s [README.md file](https://rp@dev.azure.com/rp/project-backend) or the project wiki.
 
 2. **Team Communication**
    - Join the team’s communication channels (Slack, Google Chat, etc.) and introduce yourself.

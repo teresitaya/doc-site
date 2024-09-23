@@ -19,3 +19,9 @@ img.ngde {
 .hljs-built_in, .hljs-symbol {
   color: var(--ng-doc-guide-tag-background);
 }
+
+h1.ngde {
+  --ng-doc-font-size: calc(var(--ng-doc-base-gutter) * 3.5);
+  --ng-doc-line-height: calc(var(--ng-doc-base-gutter) * 3.5);
+  --ng-doc-font-weight: 800;
+}
