@@ -1,0 +1,15 @@
+# {{ NgDocPage.title }}
+
+RiskPhysics is a comprehensive Risk Management Solution that empowers you to reduce your attack surface continuously and monitor it proactively. Unlike any other solution RiskPhysics can discover, profile and risk assess any modern application such as SaaS, Web-Based, PWA or Browser Extension. Application sprawl is a real issue, as organizations have hundreds and sometimes thousands of apps in their environment. Because you can't protect what you cannot see, how do you even start prioritizing and focusing on the most critical apps?
+RiskPhysics utilizes a unique discovery process in combination with ML models, processes, and tools. We train our ML so that you can understand which apps are risky, which apps are sanctioned, sanctioned, new or recently installed. You can then identify apps that pose real security risks, immediately reducing your attack surface as well as potentially reducing costs.
+
+RiskPhysics identifies applications by type and categorizes them. For example, applications can be filtered by productivity tools, which allows you to understand exactly which productivity apps are installed in your organization. This allows quick visibility into productivity apps in use  that have a high permission risk level. RiskPhysics creates a magnifying glass that  saves your risk and compliance teams hundreds of hours trying to manually generate the same outcome with manual audits or spread sheet tracking.
+RiskPhysics also provides a mapping of which users are using each application, what their role and department are, and the IdP user context, such as if the user is a Google Workspace, Okta authenticated user or a high target  user such as a C-level executive likely to be targeted more than other users.
+
+RiskPhysics also provides SaaS to SaaS permission mapping based on risk level by consolidating all the permissions apps have between each other across your entire app environment. For example, we can see that a productivity app has permissions to see, edit, and delete your Google presentations, which pose a high risk level, or even allow scripts to make external requests to potentially untrusted sources. Browser Extensions could be declaring permissions allowing them to interact with browser tabs that could be running a SaaS or Web-App with sensitive financial data, screen capturing content and sending it to unknown locations. PWAs could be installed with unnecessary access to local devices though the browser such as the camera, microphone or storage.
+
+Once organizations are able to understand the context of these apps, how they are being used and what they are interacting with, their true risk level can be better assessed. With that information, organizations can start governing these apps by proactively authorizing or unauthorize them. Once organizations know which apps are unauthorized, they can start automatically detecting users logging into unauthorized apps.
+![RiskPhysics](assets/img/proposal_withoutbackground.png)
+
+Visit [riskphysics.io](riskphysics.io) to learn how RiskPhysics can help you secure…..
+

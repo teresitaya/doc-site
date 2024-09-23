@@ -4,7 +4,8 @@ import ProductDocumentationCategory from './ng-doc.category';
 const ProductDocumentationPage: NgDocPage = {
 	title: `Product Documentation`,
 	mdFile: './index.md',
-	category: ProductDocumentationCategory
+	category: ProductDocumentationCategory,
+	order: 1
 };
 
 export default ProductDocumentationPage;
