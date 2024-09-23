@@ -1,4 +1,4 @@
-# {{ NgDocPage.title }}
+# CI/CD Workflow
 
 
 This document provides a detailed overview of the CI/CD Workflow defined for RP development process. The primary objectives are to simplify the deployment process, guarantee the quality of the code, and uphold a systematic methodology for the roll-out of new features and updates. This guide encompasses the journey from code creation to production deployment, emphasizing crucial steps, checkpoints, and responsibilities.
@@ -14,16 +14,16 @@ The CI/CD workflow consists of the following stages:
 5. **Production**
 
 
-##### 1. Analysis
+#### 1. Analysis
 - **Activities**: Initial review, research, and analysis of requirements.
 - **Outcome**: A clear understanding of the requirements and backlogs to be implemented.
 
-###### 2. Code Development
+#### 2. Code Development
 - **Activities**: Write and update code based, unit test and documentation on the requirements.
 - **Tools**: Integrated Development Environment (IDE) with necessary plugins or extensions based on the project requirements.
 - **Outcome**: Approved PR to Development Environment.
 
-###### 3. Development Branch
+#### 3. Development Branch
 - **Activities**:
   - **Build**: Compile the code.
   - **Security Scan**: Perform a security scan of the code.
@@ -35,7 +35,7 @@ The CI/CD workflow consists of the following stages:
 - **Gate**: PM approval required before promoting the code to QE/Beta.
 ![CI/CD Workflow](assets/img/CI-CD-Workflow.png)
 
-###### 4. Beta Branch
+#### 4. Beta Branch
 - **Activities**:
   - **Development Branch Activities**: Build/Security Scan/Unit Test/Code Analysis/Review.
   - **Regression Testing**: Execute a comprehensive suite of regression tests.
@@ -53,5 +53,5 @@ The CI/CD workflow consists of the following stages:
 - **Outcome**: The code is deployed to the production environment, making the new features or updates live.
 - **Outcome**: Public Release Notes is wrote.
 
-### Conclusion
+#### Conclusion
 Adhering to this CI/CD workflow ensures a consistent, high-quality approach to software development and deployment at RP. By following the detailed steps and utilizing the specified tools, we can achieve a reliable and efficient CI/CD process, leading to better collaboration, minimized errors, and faster recovery from issues.
