@@ -5,7 +5,7 @@ const SystemArchitectureOverviewPage: NgDocPage = {
 	title: `System Architecture Overview`,
 	mdFile: './index.md',
 	category: ArchitectureDocumentationCategory,
-	order: 1
+	order: 2
 };
 
 export default SystemArchitectureOverviewPage;

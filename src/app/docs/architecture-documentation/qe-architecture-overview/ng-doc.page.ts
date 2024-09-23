@@ -5,7 +5,7 @@ const QEArchitectureOverviewPage: NgDocPage = {
 	title: `QE Architecture Overview`,
 	mdFile: './index.md',
 	category: ArchitectureDocumentationCategory,
-	order: 6
+	order: 8
 };
 
 export default QEArchitectureOverviewPage;

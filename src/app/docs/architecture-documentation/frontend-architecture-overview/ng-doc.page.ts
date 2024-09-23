@@ -5,7 +5,7 @@ const FrontendArchitectureOverviewPage: NgDocPage = {
 	title: `Frontend Architecture Overview`,
 	mdFile: './index.md',
 	category: ArchitectureDocumentationCategory,
-	order: 3
+	order: 4
 };
 
 export default FrontendArchitectureOverviewPage;

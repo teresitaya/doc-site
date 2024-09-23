@@ -5,7 +5,7 @@ const IncidentManagementPage: NgDocPage = {
 	title: `Incident Management`,
 	mdFile: './index.md',
 	category: ArchitectureDocumentationCategory,
-	order: 8
+	order: 10
 };
 
 export default IncidentManagementPage;

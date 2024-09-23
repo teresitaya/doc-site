@@ -5,7 +5,7 @@ const ExtensionArchitectureOverviewPage: NgDocPage = {
 	title: `Extension Architecture Overview`,
 	mdFile: './index.md',
 	category: ArchitectureDocumentationCategory,
-	order: 5
+	order: 7
 };
 
 export default ExtensionArchitectureOverviewPage;

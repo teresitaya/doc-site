@@ -5,7 +5,7 @@ const CodeBestPracticesStandardPage: NgDocPage = {
 	title: `Code Best Practices Standard`,
 	mdFile: './index.md',
 	category: ArchitectureDocumentationCategory,
-	order: 2
+	order: 3
 };
 
 export default CodeBestPracticesStandardPage;

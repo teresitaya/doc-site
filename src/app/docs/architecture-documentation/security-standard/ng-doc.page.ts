@@ -5,7 +5,7 @@ const SecurityStandardPage: NgDocPage = {
 	title: `Security Standard`,
 	mdFile: './index.md',
 	category: ArchitectureDocumentationCategory,
-	order: 9
+	order: 11
 };
 
 export default SecurityStandardPage;

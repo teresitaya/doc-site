@@ -5,7 +5,7 @@ const BackendArchitectureOverviewPage: NgDocPage = {
 	title: `Backend Architecture Overview`,
 	mdFile: './index.md',
 	category: ArchitectureDocumentationCategory,
-	order: 4
+	order: 6
 };
 
 export default BackendArchitectureOverviewPage;

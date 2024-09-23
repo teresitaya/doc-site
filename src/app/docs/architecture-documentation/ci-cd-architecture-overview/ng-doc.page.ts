@@ -5,7 +5,7 @@ const CICDArchitectureOverviewPage: NgDocPage = {
 	title: `CI-CD Architecture Overview`,
 	mdFile: './index.md',
 	category: ArchitectureDocumentationCategory,
-	order: 7
+	order: 9
 };
 
 export default CICDArchitectureOverviewPage;
