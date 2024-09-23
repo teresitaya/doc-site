@@ -1,0 +1,24 @@
+<ng-doc-root [footerContent]="footerContent">
+	<ng-doc-navbar [leftContent]="leftContent" [rightContent]="rightContent">
+		<ng-template #leftContent>
+			<img id="logo" [src]="logo" alt="" class="w-13">
+		</ng-template>
+		<ng-template #rightContent>
+			<div @preventInitialChild class="ng-doc-header-controls">
+				<button ng-doc-button-icon size="large" (click)="setTheme()" [ngDocTooltip]="'Change Theme'">
+					<ng-doc-icon icon="sun" [size]="24" *ngIf="!isDarkTheme()">
+					</ng-doc-icon>
+					<ng-doc-icon icon="moon" [size]="24" *ngIf="isDarkTheme()">
+					</ng-doc-icon>
+				</button>
+			</div>
+			
+		</ng-template>
+	</ng-doc-navbar>
+	<ng-doc-sidebar>
+	</ng-doc-sidebar>
+	<router-outlet></router-outlet>
+	<ng-template #footerContent>
+		<div class="ng-doc-footer">MIT © {{currentYear}} Acium</div>
+	</ng-template>
+</ng-doc-root>

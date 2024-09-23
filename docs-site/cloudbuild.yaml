@@ -1,0 +1,118 @@
+timeout: 3600s
+
+options:
+  machineType: 'E2_HIGHCPU_32'
+
+substitutions: 
+  _NODE_VERSION: '21.4' 
+  _NAME: "gcp"
+  _ENVIRONMENT: "dev" 
+  _CONFIG_PROJECT_ID: "itopia-acium-config"  
+  _FIREBASE_TOKEN: "none"
+  _CREATE_SITE: "true"  
+  _TARGET: ""     
+
+
+tags:
+  - itopia-acium-portals
+
+steps:  
+
+   
+ ##
+  # Set configurations
+  ##
+  - name: 'gcr.io/cloud-builders/gcloud'
+    id: set-config
+    entrypoint: bash
+    args:
+      - -exc
+      - |
+         #Environment       
+         echo "Environment: ${_ENVIRONMENT}"            
+    waitFor: ["-"]         
+ 
+  ##
+  # firebase project list
+  ##
+  - name: 'us-docker.pkg.dev/${_CONFIG_PROJECT_ID}/images/${_NAME}-firebase'
+    id: projects-list
+    args: ['projects:list']    
+    waitFor: 
+      - set-config 
+
+  ##
+  # firebase set project
+  ##
+  - name: 'us-docker.pkg.dev/${_CONFIG_PROJECT_ID}/images/${_NAME}-firebase'   
+    id: set-project   
+    args: ['use', '${PROJECT_ID}']
+    waitFor: 
+      - projects-list
+
+  ##
+  # firebase create site to deploy 
+  ##
+  - name: 'us-docker.pkg.dev/${_CONFIG_PROJECT_ID}/images/${_NAME}-firebase'   
+    id: create-site   
+    entrypoint: bash
+    args:    
+      - -c
+      - |
+        echo 'Create site value'
+        echo ${_CREATE_SITE}
+
+        [[ "${_CREATE_SITE}" == "false" ]] && exit 0
+        echo 'List sites in project ${PROJECT_ID}'
+        firebase hosting:sites:list --project ${PROJECT_ID}
+        
+        rm -f /workspace/portal.config
+
+        echo 'Check site ${_TARGET} in project ${PROJECT_ID}'
+        echo $(firebase hosting:sites:list --project ${PROJECT_ID}) > /workspace/portal.config
+        cat /workspace/portal.config
+
+        if [[ $(cat /workspace/portal.config) =~ "Error" ]]; then 
+          echo "Site obtain error!"  && exit 1       
+        elif [[ $(cat /workspace/portal.config) =~ "${_TARGET}" ]]; then  
+           echo "Site ${_TARGET} already exist!"
+        else
+          echo 'Create site ${_TARGET} in project ${PROJECT_ID}'
+          firebase hosting:sites:create ${_TARGET} --project ${PROJECT_ID}
+        fi       
+
+    waitFor: 
+      - set-project        
+
+  ##
+  # Build aplication
+  ##
+  - name: 'registry.hub.docker.com/library/node:${_NODE_VERSION}'   
+    id: build-portal 
+    entrypoint: bash  
+    args: 
+      - -c
+      - | 
+        npm install         
+        npm run build         
+           
+    waitFor: 
+      - create-site      
+  ##
+  # Deploy firebase portal
+  ##
+  - name: 'us-docker.pkg.dev/${_CONFIG_PROJECT_ID}/images/${_NAME}-firebase'   
+    id: deploy-site       
+    entrypoint: bash
+    args: 
+      - -c
+      - |                    
+        firebase target:apply hosting ${_TARGET} ${_TARGET}      
+        if [[ "${_FIREBASE_TOKEN}" == "none" ]]; then
+          firebase deploy --only hosting:${_TARGET}
+        else
+           firebase deploy --only hosting:${_TARGET} --token ${_FIREBASE_TOKEN} 
+        fi  
+
+    waitFor:       
+      - build-portal         

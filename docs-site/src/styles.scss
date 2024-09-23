@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+.hljs {
+  color: var(--ng-doc-guide-tag-background);
+}
+
+.hljs-string {
+  color: var(--ng-doc-api-tag-background);
+}
+
+hr {
+  border    : 0;
+  border-top: 1px solid var(--ng-doc-base-2);
+}
+
+p.ngde>img {
+  max-width: 100%;
+}

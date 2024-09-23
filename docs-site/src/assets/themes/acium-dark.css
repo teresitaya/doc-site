@@ -1,0 +1,35 @@
+:root {
+	--ng-doc-base-0        : #0F172A;
+	--ng-doc-base-1        : #1E293B;
+	--ng-doc-base-2        : #3a3a3a;
+	--ng-doc-base-3        : #424242;
+	--ng-doc-base-4        : #4b4b4b;
+	--ng-doc-base-5        : #555555;
+	--ng-doc-base-6        : #5e5e5e;
+	--ng-doc-base-7        : #686868;
+	--ng-doc-base-8        : #727272;
+	--ng-doc-base-9        : #7d7d7d;
+	--ng-doc-base-10       : #888888;
+	--ng-doc-text          : #E2E8F0;
+	--ng-doc-text-muted    : var(--ng-doc-base-10);
+	--ng-doc-text-selection: rgba(110, 110, 110, 0.81);
+
+	--ng-doc-shadow-color          : #020317;
+	--ng-doc-link-color            : #30a5ff;
+	--ng-doc-inline-code-background: #b9b9b9;
+	--ng-doc-navbar-background     : #0F172A;
+	--ng-doc-background            : #0F172A;
+	--ng-doc-sidebar-background    : #0F172A;
+	--ng-doc-input-color           : #E2E8F0;
+	--ng-doc-search-result-color   : #94A3B8;
+
+	--ng-doc-primary: #faab00;
+	--ng-doc-info   : #7095ff;
+
+	--ng-doc-mark-background    : #edb02459;
+
+	--ng-doc-api-tag-background  : #ff5959;
+	--ng-doc-api-tag-color       : var(--ng-doc-base-0);
+	--ng-doc-guide-tag-background: #faab00;
+	--ng-doc-guide-tag-color     : var(--ng-doc-base-0);
+}
