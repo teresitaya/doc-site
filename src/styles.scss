@@ -15,3 +15,7 @@ hr {
 img.ngde {
   max-width: 100%;
 }
+
+.hljs-built_in, .hljs-symbol {
+  color: var(--ng-doc-guide-tag-background);
+}
