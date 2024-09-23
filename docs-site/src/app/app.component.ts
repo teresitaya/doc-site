@@ -9,7 +9,6 @@ import {
 	NgDocTooltipDirective,
   preventInitialChildAnimations,
 } from '@ng-doc/ui-kit';
-import { filter } from "rxjs";
 
 @Component({
   selector: 'app-root',
@@ -25,7 +24,7 @@ import { filter } from "rxjs";
 export class AppComponent implements OnInit {
   title = 'docs-site';
   currentTheme:any;
-  logo:string = 'assets/img/ACIUM-L-logo.svg';
+  logo:string = 'assets/img/Logotype-DarkMode.svg';
   leftContent:any;
   currentYear = new Date().getFullYear();
 
@@ -52,14 +51,14 @@ export class AppComponent implements OnInit {
   }
 
   setLogo() {
-    this.logo = this.currentTheme?.id === 'acium-dark' ? "assets/img/ACIUM-D-logo.svg" : "assets/img/ACIUM-L-logo.svg";
+    this.logo = this.currentTheme?.id === 'rp-dark' ? "assets/img/Logotype-DarkMode.svg" : "assets/img/Logotype-LightMode.svg";
   }
 
   setTheme(): void {
-    this.themeService.set(this.currentTheme.id === 'acium-dark' ? 'acium-light' : 'acium-dark');
+    this.themeService.set(this.currentTheme?.id === 'rp-dark' ? 'rp-light' : 'rp-dark');
   }
 
   isDarkTheme(): boolean {
-    return this.currentTheme.id === 'acium-dark';
+    return this.currentTheme?.id === 'rp-dark';
   }
 }

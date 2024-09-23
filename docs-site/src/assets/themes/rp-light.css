@@ -24,14 +24,14 @@
     --ng-doc-input-color           : #334155;
     --ng-doc-search-result-color   : #475569;
 
-    --ng-doc-primary: #F26722;
+    --ng-doc-primary: #60da97;
     --ng-doc-info   : #7095ff;
 
     --ng-doc-mark-background: #e071293d;
 
-    --ng-doc-api-tag-background  : #ff5959;
+    --ng-doc-api-tag-background  : #3cb371;
     --ng-doc-api-tag-color       : var(--ng-doc-base-0);
-    --ng-doc-guide-tag-background: #F26722;
+    --ng-doc-guide-tag-background: #60da97;
     --ng-doc-guide-tag-color     : var(--ng-doc-base-0);
     --ng-doc-guide-tag-color     : #F8FAFC;
 }

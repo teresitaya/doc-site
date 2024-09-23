@@ -7,14 +7,14 @@ substitutions:
   _NODE_VERSION: '21.4' 
   _NAME: "gcp"
   _ENVIRONMENT: "dev" 
-  _CONFIG_PROJECT_ID: "itopia-acium-config"  
+  _CONFIG_PROJECT_ID: "rp-config"  
   _FIREBASE_TOKEN: "none"
   _CREATE_SITE: "true"  
   _TARGET: ""     
 
 
 tags:
-  - itopia-acium-portals
+  - rp-portals
 
 steps:  
 

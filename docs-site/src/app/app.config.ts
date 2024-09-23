@@ -37,16 +37,16 @@ export const appConfig: ApplicationConfig = {
         themes: [
           {
             // Your theme ID that you can use to enable theme
-            id: 'acium-dark',
+            id: 'rp-dark',
             // Path to the theme, that will be used by NgDoc to load theme
-            path: '../assets/themes/acium-dark.css',
+            path: '../assets/themes/rp-dark.css',
           },
           {
-            id: 'acium-light',
-            path: '../assets/themes/acium-light.css',
+            id: 'rp-light',
+            path: '../assets/themes/rp-light.css',
           }
         ],
-        defaultThemeId: 'acium-light',
+        defaultThemeId: 'rp-dark',
       }),
     provideSearchEngine(NgDocDefaultSearchEngine),
     providePageSkeleton(NG_DOC_DEFAULT_PAGE_SKELETON),
