@@ -1,8 +1,8 @@
 # {{ NgDocPage.title }}
 
-Welcome to the RP Engineering Team! This guide will help you get familiar with our documentation, workflows, architecture, and security standards. Below is a table summarizing the key sections:
+Welcome to the RP Engineering Team! This guide will help you get familiar with our documentation, workflows, architecture, and standards. Below is a table summarizing the key categories:
 
-| **Section**                | **Description**                                                                                                   |
+| **Category**                | **Description**                                                                                                   |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------|
 | [Product Documentation](/product-documentation) | Product Related Documents, Release Notes, Feature Docs Links.                                                    |
 | [Documentation Standard](/documentation-standard) | Best practices for documenting code, projects, and technical details.                                                    |
