@@ -11,7 +11,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Introduction
 
-Welcome to the Acium Documentation Portal. This project is built using Angular, a powerful and widely-used framework for building web applications, and the ng-docs library, a tool specifically designed to facilitate the creation of documentation within Angular projects.
+Welcome to the Documentation Portal. This project is built using Angular, a powerful and widely-used framework for building web applications, and the ng-docs library, a tool specifically designed to facilitate the creation of documentation within Angular projects.
 
 The main goal of this project is to provide a comprehensive and user-friendly platform for documentation. It leverages the power of TypeScript, a statically typed superset of JavaScript that adds optional types, classes, and modules to JavaScript, enhancing the development experience.
 
@@ -23,9 +23,9 @@ Whether you're a developer looking to contribute or a user seeking information, 
 
 Follow these steps to get the project up and running on your local machine:
 
-1. **Clone the repository:** Use the command `git clone https://itopiadev@dev.azure.com/itopiadev/docs-site/_git/acium-int-docs` to clone the repository to your local machine.
+1. **Clone the repository:** Use the command `git clone https://github.com/teresitaya/doc-site.git` to clone the repository to your local machine.
 
-2. **Navigate into the directory:** Use the command `cd acium-int-docs` to navigate into the directory of the cloned repository.
+2. **Navigate into the directory:** Use the command `cd doc-site` to navigate into the directory of the cloned repository.
 
 3. **Install dependencies:** Use the command `npm install` to install all the necessary dependencies for the project.
 

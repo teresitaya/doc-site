@@ -9,6 +9,7 @@ import {
 	NgDocTooltipDirective,
   preventInitialChildAnimations,
 } from '@ng-doc/ui-kit';
+import { filter } from "rxjs";
 
 @Component({
   selector: 'app-root',
@@ -32,13 +33,13 @@ export class AppComponent implements OnInit {
     this.themeService.themeChanges().subscribe((theme) => {
       this.setCurrentTheme();
     });
-    /* this._router.events
+    this._router.events
     .pipe(filter((val) => val instanceof NavigationEnd))
     .subscribe(() => {
       if (this._router.url === '/') {
-        this._router.navigate(['/acium-development']);
+        this._router.navigate(['/getting-started']);
       }
-    }); */
+    });
   }
 
   ngOnInit(): void {
