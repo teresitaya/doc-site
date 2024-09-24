@@ -1,0 +1,2856 @@
+[
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "This document provides a detailed overview of the system architecture, best practices, and key standards that guide the development, deployment, and maintenance of the product. Each section covers critical aspects of the architecture, ensuring that developers, quality engineers, and other team members have a clear understanding of how the system is structured and maintained."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "Section Details"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "System Architecture Overview"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "Describes the overall system architecture, including key components, data flows, and interaction between services."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "Code Best Practices Standard"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "Details the coding standards, patterns, and conventions the team follows to maintain code quality and consistency."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "Frontend Architecture Overview"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "Provides an overview of the frontend architecture, including structure, frameworks used (React, WXT), and key design decisions."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "UI/UX Standard"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "Defines the UI/UX guidelines, including design systems, accessibility standards, and user experience principles to ensure a consistent and user-friendly interface."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "Backend Architecture Overview"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "Describes the backend architecture, including API design, database structure, and communication protocols."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "Extension Architecture Overview"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "Outlines the architecture of the Browser extension, focusing on how it integrates wxt framework with React, and TypeScript."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "QE Architecture Overview"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "Outlines the testing architecture, including test automation strategies, test frameworks, and quality assurance processes."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "CI/CD Architecture Overview"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "Describes the Continuous Integration and Continuous Deployment pipeline, including build steps, testing, and deployment processes."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "Incident Management"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "Defines the processes and protocols for handling production incidents, including response times and escalation procedures."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "Security Standard"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "Defines the processes and protocols for handling security in the development process"
+  },
+  {
+    "breadcrumbs": [
+      "CI-CD Workflow",
+      "CI-CD Workflow"
+    ],
+    "pageType": "guide",
+    "title": "CI-CD Workflow",
+    "section": "CI/CD Workflow",
+    "route": "/ci-cd-workflow/ci-cd-workflow",
+    "fragment": "cicd-workflow",
+    "content": "This document provides a detailed overview of the CI/CD Workflow defined for RiskPhysics development process. The primary objectives are to simplify the deployment process, guarantee the quality of the code, and uphold a systematic methodology for the roll-out of new features and updates. This guide encompasses the journey from code creation to production deployment, emphasizing crucial steps, checkpoints, and responsibilities."
+  },
+  {
+    "breadcrumbs": [
+      "CI-CD Workflow",
+      "CI-CD Workflow"
+    ],
+    "pageType": "guide",
+    "title": "CI-CD Workflow",
+    "section": "CI/CD Workflow Overview",
+    "route": "/ci-cd-workflow/ci-cd-workflow",
+    "fragment": "cicd-workflow-overview",
+    "content": "The CI/CD workflow consists of the following stages:"
+  },
+  {
+    "breadcrumbs": [
+      "CI-CD Workflow",
+      "CI-CD Workflow"
+    ],
+    "pageType": "guide",
+    "title": "CI-CD Workflow",
+    "section": "CI/CD Workflow Overview",
+    "route": "/ci-cd-workflow/ci-cd-workflow",
+    "fragment": "cicd-workflow-overview",
+    "content": "Analysis"
+  },
+  {
+    "breadcrumbs": [
+      "CI-CD Workflow",
+      "CI-CD Workflow"
+    ],
+    "pageType": "guide",
+    "title": "CI-CD Workflow",
+    "section": "CI/CD Workflow Overview",
+    "route": "/ci-cd-workflow/ci-cd-workflow",
+    "fragment": "cicd-workflow-overview",
+    "content": "Code Development"
+  },
+  {
+    "breadcrumbs": [
+      "CI-CD Workflow",
+      "CI-CD Workflow"
+    ],
+    "pageType": "guide",
+    "title": "CI-CD Workflow",
+    "section": "CI/CD Workflow Overview",
+    "route": "/ci-cd-workflow/ci-cd-workflow",
+    "fragment": "cicd-workflow-overview",
+    "content": "Development Branch"
+  },
+  {
+    "breadcrumbs": [
+      "CI-CD Workflow",
+      "CI-CD Workflow"
+    ],
+    "pageType": "guide",
+    "title": "CI-CD Workflow",
+    "section": "CI/CD Workflow Overview",
+    "route": "/ci-cd-workflow/ci-cd-workflow",
+    "fragment": "cicd-workflow-overview",
+    "content": "QE/Beta Branch"
+  },
+  {
+    "breadcrumbs": [
+      "CI-CD Workflow",
+      "CI-CD Workflow"
+    ],
+    "pageType": "guide",
+    "title": "CI-CD Workflow",
+    "section": "CI/CD Workflow Overview",
+    "route": "/ci-cd-workflow/ci-cd-workflow",
+    "fragment": "cicd-workflow-overview",
+    "content": "Production"
+  },
+  {
+    "breadcrumbs": [
+      "CI-CD Workflow",
+      "CI-CD Workflow"
+    ],
+    "pageType": "guide",
+    "title": "CI-CD Workflow",
+    "section": "1. Analysis",
+    "route": "/ci-cd-workflow/ci-cd-workflow",
+    "fragment": "1-analysis",
+    "content": "Activities: Initial review, research, and analysis of requirements.Outcome: A clear understanding of the requirements and backlogs to be implemented."
+  },
+  {
+    "breadcrumbs": [
+      "CI-CD Workflow",
+      "CI-CD Workflow"
+    ],
+    "pageType": "guide",
+    "title": "CI-CD Workflow",
+    "section": "2. Code Development",
+    "route": "/ci-cd-workflow/ci-cd-workflow",
+    "fragment": "2-code-development",
+    "content": "Activities: Write and update code based, unit test and documentation on the requirements.Tools: Integrated Development Environment (IDE) with necessary plugins or extensions based on the project requirements.Outcome: Approved PR to Development Environment."
+  },
+  {
+    "breadcrumbs": [
+      "CI-CD Workflow",
+      "CI-CD Workflow"
+    ],
+    "pageType": "guide",
+    "title": "CI-CD Workflow",
+    "section": "3. Development Branch",
+    "route": "/ci-cd-workflow/ci-cd-workflow",
+    "fragment": "3-development-branch",
+    "content": "Activities:Build: Compile the code.Security Scan: Perform a security scan of the code.Unit Test: Execute unit tests to verify the functionality.Code Analysis: Analyze the code for quality and adherence to standards.Review Review the build results, security scan reports, unit test results, and code analysis.Tools: Devops.Outcome: Approved PR to Beta Environment.Gate: PM approval required before promoting the code to QE/Beta. "
+  },
+  {
+    "breadcrumbs": [
+      "CI-CD Workflow",
+      "CI-CD Workflow"
+    ],
+    "pageType": "guide",
+    "title": "CI-CD Workflow",
+    "section": "4. Beta Branch",
+    "route": "/ci-cd-workflow/ci-cd-workflow",
+    "fragment": "4-beta-branch",
+    "content": "Activities:Development Branch Activities: Build/Security Scan/Unit Test/Code Analysis/Review.Regression Testing: Execute a comprehensive suite of regression tests.User Acceptance Testing (UAT): Conduct UAT to ensure the changes meet the user requirements.Develop/Update Automation Test: This step involves creating or modifying automated tests to ensure the functionality of new or updated features in the application.Tools: Selenium, Appium, JUnit/TestNG, other test automation frameworks.Outcome: Confirm that the code is stable and meets quality standards.Outcome: Approved PR to Production Environment.Outcome: Create Internal Release Notes.Gate: Approval required from QE and stakeholders before promoting the code to production."
+  },
+  {
+    "breadcrumbs": [
+      "CI-CD Workflow",
+      "CI-CD Workflow"
+    ],
+    "pageType": "guide",
+    "title": "CI-CD Workflow",
+    "section": "5. Production",
+    "route": "/ci-cd-workflow/ci-cd-workflow",
+    "fragment": "5-production",
+    "content": "Activities:Release Validation Test: Manual/Automated Test executed to ensure Release and previous features stability.Outcome: The code is deployed to the production environment, making the new features or updates live.Outcome: Public Release Notes is wrote."
+  },
+  {
+    "breadcrumbs": [
+      "CI-CD Workflow",
+      "CI-CD Workflow"
+    ],
+    "pageType": "guide",
+    "title": "CI-CD Workflow",
+    "section": "Conclusion",
+    "route": "/ci-cd-workflow/ci-cd-workflow",
+    "fragment": "conclusion",
+    "content": "Adhering to this CI/CD workflow ensures a consistent, high-quality approach to software development and deployment at RiskPhysics. By following the detailed steps and utilizing the specified tools, we can achieve a reliable and efficient CI/CD process, leading to better collaboration, minimized errors, and faster recovery from issues."
+  },
+  {
+    "breadcrumbs": [
+      "Documentation Standard",
+      "Documentation Standard"
+    ],
+    "pageType": "guide",
+    "title": "Documentation Standard",
+    "section": "Documentation Standard",
+    "route": "/documentation-standard/documentation-standard",
+    "fragment": "documentation-standard",
+    "content": "Clear documentation helps streamline communication, onboarding, and knowledge sharing. Below are the critical components:"
+  },
+  {
+    "breadcrumbs": [
+      "Documentation Standard",
+      "Documentation Standard"
+    ],
+    "pageType": "guide",
+    "title": "Documentation Standard",
+    "section": "a. ",
+    "route": "/documentation-standard/documentation-standard",
+    "fragment": "a-project-documentation",
+    "content": "Project Documentation"
+  },
+  {
+    "breadcrumbs": [
+      "Documentation Standard",
+      "Documentation Standard"
+    ],
+    "pageType": "guide",
+    "title": "Documentation Standard",
+    "section": "a. ",
+    "route": "/documentation-standard/documentation-standard",
+    "fragment": "a-project-documentation",
+    "content": "Readme.md: For each repository, include a README.md that explains the project, purpose, setup instructions, usage guidelines, and key dependencies.Contributing Guidelines: Define how external contributors or team members can contribute to the codebase. Include coding standards, branching strategy, and pull request process.Changelog: Implement a changelog to track all changes, from new features to bug fixes, with clear versioning.Architecture Diagrams: Use tools like Lucidchart or Draw.io to provide system and software architecture diagrams, helping new engineers understand the structure and flow.API Documentation: For internal or public APIs, ensure you use tools like Swagger/OpenAPI or Postman collections to document endpoints, parameters, and responses."
+  },
+  {
+    "breadcrumbs": [
+      "Documentation Standard",
+      "Documentation Standard"
+    ],
+    "pageType": "guide",
+    "title": "Documentation Standard",
+    "section": "b. ",
+    "route": "/documentation-standard/documentation-standard",
+    "fragment": "b-code-documentation",
+    "content": "Code Documentation"
+  },
+  {
+    "breadcrumbs": [
+      "Documentation Standard",
+      "Documentation Standard"
+    ],
+    "pageType": "guide",
+    "title": "Documentation Standard",
+    "section": "b. ",
+    "route": "/documentation-standard/documentation-standard",
+    "fragment": "b-code-documentation",
+    "content": "Inline Documentation/Comments: Encourage concise but meaningful comments within the codebase, particularly for complex logic.Technical Docs: Create/Update detailed technical documentation for core components or modules that need deep explanation. Create/Update Architectural Decision Records (ADR) for each Technology added to the solution.Code Style Guides: Adopt and document language-specific best practices (e.g., ESLint for JavaScript, PEP8 for Python, ReSharper for C#)."
+  },
+  {
+    "breadcrumbs": [
+      "Documentation Standard",
+      "Documentation Standard"
+    ],
+    "pageType": "guide",
+    "title": "Documentation Standard",
+    "section": "c. ",
+    "route": "/documentation-standard/documentation-standard",
+    "fragment": "c-team-knowledge-base",
+    "content": "Team Knowledge Base"
+  },
+  {
+    "breadcrumbs": [
+      "Documentation Standard",
+      "Documentation Standard"
+    ],
+    "pageType": "guide",
+    "title": "Documentation Standard",
+    "section": "c. ",
+    "route": "/documentation-standard/documentation-standard",
+    "fragment": "c-team-knowledge-base",
+    "content": "Create/Update a centralized knowledge base for general processes, workflows, and troubleshooting guides.Include an FAQ for common issues and a section for onboarding new engineers with essential info such as environment setup, key contacts, and training materials."
+  },
+  {
+    "breadcrumbs": [
+      "Getting Started"
+    ],
+    "pageType": "guide",
+    "title": "Getting Started",
+    "section": "Getting Started",
+    "route": "/getting-started",
+    "fragment": "getting-started",
+    "content": "Welcome to the RiskPhysics Engineering Team! This guide will help you get familiar with our documentation, workflows, architecture, and standards. Below is a table summarizing the key categories:"
+  },
+  {
+    "breadcrumbs": [
+      "Getting Started"
+    ],
+    "pageType": "guide",
+    "title": "Getting Started",
+    "section": "Getting Started",
+    "route": "/getting-started",
+    "fragment": "getting-started",
+    "content": "Category"
+  },
+  {
+    "breadcrumbs": [
+      "Getting Started"
+    ],
+    "pageType": "guide",
+    "title": "Getting Started",
+    "section": "Getting Started",
+    "route": "/getting-started",
+    "fragment": "getting-started",
+    "content": "Description"
+  },
+  {
+    "breadcrumbs": [
+      "Getting Started"
+    ],
+    "pageType": "guide",
+    "title": "Getting Started",
+    "section": "Getting Started",
+    "route": "/getting-started",
+    "fragment": "getting-started",
+    "content": "Product Documentation"
+  },
+  {
+    "breadcrumbs": [
+      "Getting Started"
+    ],
+    "pageType": "guide",
+    "title": "Getting Started",
+    "section": "Getting Started",
+    "route": "/getting-started",
+    "fragment": "getting-started",
+    "content": "Product Related Documents, Release Notes, Feature Docs Links."
+  },
+  {
+    "breadcrumbs": [
+      "Getting Started"
+    ],
+    "pageType": "guide",
+    "title": "Getting Started",
+    "section": "Getting Started",
+    "route": "/getting-started",
+    "fragment": "getting-started",
+    "content": "Documentation Standard"
+  },
+  {
+    "breadcrumbs": [
+      "Getting Started"
+    ],
+    "pageType": "guide",
+    "title": "Getting Started",
+    "section": "Getting Started",
+    "route": "/getting-started",
+    "fragment": "getting-started",
+    "content": "Best practices for documenting code, projects, and technical details."
+  },
+  {
+    "breadcrumbs": [
+      "Getting Started"
+    ],
+    "pageType": "guide",
+    "title": "Getting Started",
+    "section": "Getting Started",
+    "route": "/getting-started",
+    "fragment": "getting-started",
+    "content": "CI/CD Workflow"
+  },
+  {
+    "breadcrumbs": [
+      "Getting Started"
+    ],
+    "pageType": "guide",
+    "title": "Getting Started",
+    "section": "Getting Started",
+    "route": "/getting-started",
+    "fragment": "getting-started",
+    "content": "Overview of the Continuous Integration and Continuous Deployment processes for automated testing and deployment."
+  },
+  {
+    "breadcrumbs": [
+      "Getting Started"
+    ],
+    "pageType": "guide",
+    "title": "Getting Started",
+    "section": "Getting Started",
+    "route": "/getting-started",
+    "fragment": "getting-started",
+    "content": "Onboarding Process"
+  },
+  {
+    "breadcrumbs": [
+      "Getting Started"
+    ],
+    "pageType": "guide",
+    "title": "Getting Started",
+    "section": "Getting Started",
+    "route": "/getting-started",
+    "fragment": "getting-started",
+    "content": "Steps to get new developers up to speed, including environment setup and team integration."
+  },
+  {
+    "breadcrumbs": [
+      "Getting Started"
+    ],
+    "pageType": "guide",
+    "title": "Getting Started",
+    "section": "Getting Started",
+    "route": "/getting-started",
+    "fragment": "getting-started",
+    "content": "Architecture Documentation"
+  },
+  {
+    "breadcrumbs": [
+      "Getting Started"
+    ],
+    "pageType": "guide",
+    "title": "Getting Started",
+    "section": "Getting Started",
+    "route": "/getting-started",
+    "fragment": "getting-started",
+    "content": "High-level system and software architecture overviews with diagrams and explanations."
+  },
+  {
+    "breadcrumbs": [
+      "Getting Started"
+    ],
+    "pageType": "guide",
+    "title": "Getting Started",
+    "section": "Getting Started",
+    "route": "/getting-started",
+    "fragment": "getting-started",
+    "content": "For any questions or assistance, please reach out to the Engineering Lead or your assigned mentor. Happy coding! 🚀"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Onboarding Process"
+    ],
+    "pageType": "guide",
+    "title": "Onboarding Process",
+    "section": "Onboarding Process",
+    "route": "/onboarding-process/onboarding-process",
+    "fragment": "onboarding-process",
+    "content": "A smooth and well-structured onboarding process is crucial for helping you, as a new developer, become productive as quickly as possible. Our onboarding process is broken down into more detail:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Onboarding Process"
+    ],
+    "pageType": "guide",
+    "title": "Onboarding Process",
+    "section": "Onboarding Process",
+    "route": "/onboarding-process/onboarding-process",
+    "fragment": "onboarding-process",
+    "content": "Setup Documentation"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Onboarding Process"
+    ],
+    "pageType": "guide",
+    "title": "Onboarding Process",
+    "section": "Onboarding Process",
+    "route": "/onboarding-process/onboarding-process",
+    "fragment": "onboarding-process",
+    "content": "Ensuring that you can set up your development environment without major roadblocks is the first critical step. Here's what this includes: Repository Access:Instructions: Follow the steps provided to request or gain access to the necessary repositories.Permissions: Contact the team lead for access and ensure you're aware of which branches are relevant for your tasks (e.g., development, main, or feature branches).Cloning Repositories:Git Workflow: The team follows specific version control practices. Whether we use Git Flow or trunk-based development, you’ll need to be aware of the process.Example: Use this command to clone the main repository:Setting Up Dependencies:Instructions: A list of dependencies like Node.js, Docker, etc., will be provided with clear installation steps.Automation: Where possible, you'll have scripts available (e.g., setup.sh) to automate the installation of dependencies or to spin up Docker containers.Environment Configuration:Environment Variables: You will be provided with the necessary environment variables for local development. We will also provide a sample .env file (e.g., .env.example) to guide you.Secrets Management: You’ll learn how we handle sensitive information like API keys and credentials, possibly using tools like GCloud Secrets Manager or Vault.Running the Application:Instructions: A step-by-step guide will show you how to run the application locally, whether through Docker, npm run dev, or other commands.Test Data: Guidance will be provided on how to set up or access test data, seed the database if needed, and identify which services or endpoints need to be active for the app to function locally.Running Tests:Unit Tests: You'll receive instructions on running unit tests (e.g., npm run test) and how to check coverage or logs.Integration Tests: There will be documentation on how to set up and run integration tests.Debugging Tools: We’ll provide tips on debugging with tools like Chrome DevTools, VSCode, or other relevant platforms.For specific guidance check each Solution Onboarding Process Document:FrontendBackendExtensionQESRE"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Onboarding Process"
+    ],
+    "pageType": "guide",
+    "title": "Onboarding Process",
+    "section": "Onboarding Process",
+    "route": "/onboarding-process/onboarding-process",
+    "fragment": "onboarding-process",
+    "content": "Mentorship/Buddy System"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Onboarding Process"
+    ],
+    "pageType": "guide",
+    "title": "Onboarding Process",
+    "section": "Onboarding Process",
+    "route": "/onboarding-process/onboarding-process",
+    "fragment": "onboarding-process",
+    "content": "The mentorship or buddy system will help you quickly integrate with the team culture and our technical processes. Mentor Assignment:You will be paired with a senior or experienced engineer. This person will help answer your questions, review your code, and ensure you follow our best practices.Your buddy will also introduce you to team rituals like stand-ups, retrospectives, key tools (AzureDevops, Google Workspace), and our engineering workflows.First Month Engagement:1:1 Meetings: We recommend weekly 1:1 meetings with your mentor to provide feedback, resolve blockers, and track your progress.Pair Programming: You'll have some pair programming sessions to help you get familiar with the codebase, coding standards, and contribute to smaller tasks.Knowledge Transfer:Your buddy will provide you with guidance on the project's architecture and technical decisions.You’ll be introduced to best practices, coding standards, and where to find key documentation and repositories."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Onboarding Process"
+    ],
+    "pageType": "guide",
+    "title": "Onboarding Process",
+    "section": "Onboarding Process",
+    "route": "/onboarding-process/onboarding-process",
+    "fragment": "onboarding-process",
+    "content": "90-Day Plan"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Onboarding Process"
+    ],
+    "pageType": "guide",
+    "title": "Onboarding Process",
+    "section": "Onboarding Process",
+    "route": "/onboarding-process/onboarding-process",
+    "fragment": "onboarding-process",
+    "content": "The 90-day plan is designed to help you integrate smoothly into the team with clear goals and expectations. It is structured into three phases: learning, contributing, and taking ownership. First 30 Days (Learning & Setup):Goals: By the end of your first month, you should be familiar with the company’s tools, codebase, and workflows. You should also feel confident in setting up and running the local environment, navigating the repositories, and understanding the broader architecture.Tasks: You’ll start with simple bug fixes, documentation updates, or small feature additions to get comfortable with our processes.Training: Internal training sessions or relevant resources (like coding standards and system architecture overview) will be made available to help you understand our environment.Next 30 Days (Contributing):Goals: By the end of your second month, you should be contributing meaningfully to the codebase. You'll be expected to work on more complex work items and take part in code reviews.Tasks: In this phase, you'll work on medium-sized features and contribute to sprint planning and retrospectives.Team Integration: You’re encouraged to start leading stand-ups or retrospectives to build confidence and improve communication within the team.Final 30 Days (Ownership & Improvement):Goals: By the end of the third month, you should be taking ownership of small features or projects. At this stage, you'll demonstrate your ability to take a work item from planning to execution and delivery.Tasks: You'll work on cross-team collaborations, implement significant parts of the application, or handle complex bugs that require in-depth problem-solving.Feedback & Evaluation: At the end of 90 days, you’ll receive formal feedback from your mentor and team lead to review your progress and areas for improvement. By following this onboarding process, you'll gradually become comfortable with the codebase, team dynamics, and company standards, allowing you to contribute efficiently and confidently."
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Product Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Product Documentation",
+    "section": "Product Documentation",
+    "route": "/product-documentation/product-documentation",
+    "fragment": "product-documentation",
+    "content": "This documentation provides all the information you need to understand and work with the product, including its vision, features, and ongoing updates."
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Product Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Product Documentation",
+    "section": "Product Documentation",
+    "route": "/product-documentation/product-documentation",
+    "fragment": "product-documentation",
+    "content": "Section Details"
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Product Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Product Documentation",
+    "section": "Product Documentation",
+    "route": "/product-documentation/product-documentation",
+    "fragment": "product-documentation",
+    "content": "POV (Point of View)"
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Product Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Product Documentation",
+    "section": "Product Documentation",
+    "route": "/product-documentation/product-documentation",
+    "fragment": "product-documentation",
+    "content": "The POV document outlines the product vision, detailing the problem it solves, target users, and value proposition."
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Product Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Product Documentation",
+    "section": "Product Documentation",
+    "route": "/product-documentation/product-documentation",
+    "fragment": "product-documentation",
+    "content": "Feature Docs"
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Product Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Product Documentation",
+    "section": "Product Documentation",
+    "route": "/product-documentation/product-documentation",
+    "fragment": "product-documentation",
+    "content": "Provides detailed descriptions of all available features, including how they work and use cases."
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Product Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Product Documentation",
+    "section": "Product Documentation",
+    "route": "/product-documentation/product-documentation",
+    "fragment": "product-documentation",
+    "content": "Release Notes"
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Product Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Product Documentation",
+    "section": "Product Documentation",
+    "route": "/product-documentation/product-documentation",
+    "fragment": "product-documentation",
+    "content": "Lists all the changes made in each release, including new features, improvements, and bug fixes."
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Product Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Product Documentation",
+    "section": "Product Documentation",
+    "route": "/product-documentation/product-documentation",
+    "fragment": "product-documentation",
+    "content": "FAQ"
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Product Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Product Documentation",
+    "section": "Product Documentation",
+    "route": "/product-documentation/product-documentation",
+    "fragment": "product-documentation",
+    "content": "Answers frequently asked questions about the product, including troubleshooting and feature explanations."
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Product Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Product Documentation",
+    "section": "Product Documentation",
+    "route": "/product-documentation/product-documentation",
+    "fragment": "product-documentation",
+    "content": "Business Rules"
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Product Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Product Documentation",
+    "section": "Product Documentation",
+    "route": "/product-documentation/product-documentation",
+    "fragment": "product-documentation",
+    "content": "Defines the core logic and rules governing the browser extension to ensure consistent functionality."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Backend Architecture Overview"
+    ],
+    "pageType": "guide",
+    "title": "Backend Architecture Overview",
+    "section": "Backend Architecture Overview",
+    "route": "/architecture-documentation/backend-architecture-overview",
+    "fragment": "backend-architecture-overview",
+    "content": "Coming Soon!"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "CI-CD Architecture Overview"
+    ],
+    "pageType": "guide",
+    "title": "CI-CD Architecture Overview",
+    "section": "CI-CD Architecture Overview",
+    "route": "/architecture-documentation/ci-cd-architecture-overview",
+    "fragment": "ci-cd-architecture-overview",
+    "content": "Coming Soon!"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "Code Best Practices Standard",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "code-best-practices-standard",
+    "content": "This document aims to establish a set of guidelines that developers should adhere to when contributing to the project. These best practices are designed to ensure a consistent development process, high code quality, and comprehensive documentation."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "2.1 Semantic Versioning",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "21-semantic-versioning",
+    "content": "Follow semantic versioning (SemVer) guidelines for version increments: Major Release: Significant new features, code refactoring, or third-party library upgrades.Update the first number of the version.Update RELEASE_NOTES.md and relevant documentation.Minor Release: Smaller new features or improvements.Update the second number of the version.Update RELEASE_NOTES.md and other related documentation.Patch Release: Low-risk bug fixes.Update the third number of the version.Update RELEASE_NOTES.md, CHANGE_LOGS.md and other related documentation."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "2.2 Automated Code Standard Review",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "22-automated-code-standard-review",
+    "content": "Implement automated code standard checks to enforce best practices and minimize errors in every pull request (PR): Automated Checks Implementation: Integrate automated code standard checks into the PR workflow to systematically review code against predefined standards and practices.Enforcement of Best Practices: Ensure that these checks enforce adherence to coding guidelines, style conventions, and other established standards, helping maintain code quality and consistency."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "2.3 Code Formatting",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "23-code-formatting",
+    "content": "Integrate a code formatting extension or tool to ensure consistent code formatting across the project: Automated Formatting Setup: Configure the code formatting tool to automatically format code changes upon saving or committing, ensuring consistency without manual intervention.Enforce Formatting Rules: Integrate code formatting rules into the linting process to enforce standards and catch any deviations during code reviews and continuous integration (CI) processes."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "2.4 Code Comments",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "24-code-comments",
+    "content": "Enhance code readability and maintainability by incorporating meaningful comments: Class/Method Declaration Comments: Add comments to every new class/method declaration to provide a clear understanding of its purpose and functionality at a high level.Internal Method Comments: Insert internal comments within methods to explain complex logic or functionality, aiding comprehension for developers who may encounter the code in the future."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "2.5 Unit Test Coverage Increase",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "25-unit-test-coverage-increase",
+    "content": "Promote code robustness and error minimization by mandating an increase in unit test coverage with every PR: Coverage Requirement: Make it a prerequisite for every PR to include additional unit tests, ensuring basic flows are thoroughly tested.Error Minimization: By expanding test coverage, the likelihood of undetected bugs decreases, leading to more reliable code."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "2.6 Test Cases Compliance",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "26-test-cases-compliance",
+    "content": "Guarantee adherence to defined test cases for all work items: Comprehensive Testing: Ensure that all specified test cases for each work item are meticulously reviewed and verified to meet compliance standards.Validation of Test Coverage: Confirm that the executed test cases adequately cover the functionality outlined in the work items, ensuring thorough testing of the implemented features."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "2.7 Pull Request Naming Convention",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "27-pull-request-naming-convention",
+    "content": "Follow a consistent naming convention for PR titles: Prefix: Use PR and a relevant prefix indicating the type of change.feat: New feature implementation.fix: Bug fix.refactor: Code refactoring.docs: Documentation changes.style: Code style/formatting changes.test: Adding or modifying tests.chore: Routine tasks/tooling changes.Brief Description: Provide a concise and descriptive title summarizing the purpose of the PR.Issue Reference: Include the corresponding issue number from your issue tracking system (e.g., GitHub issues) if applicable. Example Pull Request Titles: PR-feat: Add user authentication functionalityPR-fix: Resolve issue with form validation (#456)PR-refactor: Update data fetching logicPR-docs: Update README with deployment instructionsPR-test: Add unit tests for user servicePR-style: Format codebase using PrettierPR-chore: Update Angular dependencies"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "2.8 UI/UX Check for Major/Minor Releases",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "28-uiux-check-for-majorminor-releases",
+    "content": "Perform UI/UX checks for every major or minor release to ensure quality standards are met."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": "Semantic Versioning"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": ": Follow versioning guidelines. Update version in "
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": "package.json"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": " field of each project."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": "Automated Code Standard Review"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": ": Apply linting for frontend code using the "
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": "eslint"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": " library for Angular environments."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": "Code Formatting"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": ": Ensure consistent code formatting using the "
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": "prettier"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": " library for Angular environments."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": "Code Comments"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": ": Include meaningful comments using the "
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": "Better Comments"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": " extension for VSO."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": "Unit Test Coverage Increase"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": ": Increase unit test coverage."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": "Test Cases Compliance"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": ": Check test cases compliance."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": "Pull Request Naming Convention"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": ": Follow guidelines."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": "UI/UX Check for Major/Minor Releases"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "a. Standards Applied to Frontend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "a-standards-applied-to-frontend-solutions",
+    "content": ": Perform UI/UX checks for every major or minor release to ensure quality standards."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": "Semantic Versioning"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": ": Follow versioning guidelines."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": "Automated Code Standard Review"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": ": Apply linting for backend code using one of these options: "
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": "StyleCop"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": ", "
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": "ReSharper"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": ", "
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": ".Code"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": "."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": "Code Formatting"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": ": Ensure consistent code formatting using "
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": "dotnet format"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": " with "
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": ".editorconfig"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": " file."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": "Code Comments"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": ": Include meaningful comments using one of these options: "
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": "XML Documentation Comments"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": ", "
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": "GhostDoc"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": ", "
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": "CodeMaid"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": ", "
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": "DocFX"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": "."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": "Unit Test Coverage Increase"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": ": Increase unit test coverage."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": "Test Cases Compliance"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": ": Check test cases compliance."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": "Pull Request Naming Convention"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "b. Standards Applied to Backend Solutions",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "b-standards-applied-to-backend-solutions",
+    "content": ": Follow guidelines."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": "Semantic Versioning"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": ": Follow versioning guidelines. Update version in "
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": "manifest.json"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": " field of each project."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": "Automated Code Standard Review"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": ": Apply linting for frontend code using the "
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": "eslint"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": " library for Typescript environments."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": "Code Formatting"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": ": Ensure consistent code formatting using the "
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": "prettier"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": " library for Typescript environments."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": "Code Comments"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": ": Include meaningful comments using the "
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": "Better Comments"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": " extension for VSO."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": "Unit Test Coverage Increase"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": ": Increase unit test coverage."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": "Test Cases Compliance"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": ": Check test cases compliance."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": "Pull Request Naming Convention"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Code Best Practices Standard"
+    ],
+    "pageType": "guide",
+    "title": "Code Best Practices Standard",
+    "section": "c. Standards Applied to Extension Solution",
+    "route": "/architecture-documentation/code-best-practices-standard",
+    "fragment": "c-standards-applied-to-extension-solution",
+    "content": ": Follow guidelines."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Frontend Architecture Overview"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Architecture Overview",
+    "section": "Frontend Architecture Overview",
+    "route": "/architecture-documentation/frontend-architecture-overview",
+    "fragment": "frontend-architecture-overview",
+    "content": "Coming Soon!"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Incident Management"
+    ],
+    "pageType": "guide",
+    "title": "Incident Management",
+    "section": "Incident Management",
+    "route": "/architecture-documentation/incident-management",
+    "fragment": "incident-management",
+    "content": "Incident Tracking: Use tools like Jira or PagerDuty for incident tracking and management. Define SLAs for issue resolution based on severity.Postmortems: Conduct postmortems for major incidents to identify root causes and put measures in place to prevent recurrences.On-Call Rotation: Set up an on-call rotation to ensure someone is always available to handle emergencies, and provide appropriate documentation for handling common issues."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "QE Architecture Overview"
+    ],
+    "pageType": "guide",
+    "title": "QE Architecture Overview",
+    "section": "QE Architecture Overview",
+    "route": "/architecture-documentation/qe-architecture-overview",
+    "fragment": "qe-architecture-overview",
+    "content": "Coming Soon!"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Security Standard"
+    ],
+    "pageType": "guide",
+    "title": "Security Standard",
+    "section": "Security Standard",
+    "route": "/architecture-documentation/security-standard",
+    "fragment": "security-standard",
+    "content": "Code Security Audits: Use static code analysis tools (e.g., SonarQube) and regular security audits to identify vulnerabilities in the codebase.Data Handling Guidelines: Ensure all developers follow best practices for sensitive data handling (e.g., encryption, environment variables).Authentication & Authorization: Adopt secure practices around OAuth, JWT, etc., and ensure RBAC (Role-Based Access Control) is in place where needed."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "UI-UX Standard"
+    ],
+    "pageType": "guide",
+    "title": "UI-UX Standard",
+    "section": "UI-UX Standard",
+    "route": "/architecture-documentation/ui-ux-standard",
+    "fragment": "ui-ux-standard",
+    "content": "Coming Soon!"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Backend Onboarding",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "backend-onboarding",
+    "content": "Welcome to the team! We are excited to have you on board as a new Backend Developer. This document will guide you through the onboarding process and help you set up your local development environment with the necessary tools and configurations for C# .NET Core and Google Cloud."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Pre-Onboarding Checklist",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "pre-onboarding-checklist",
+    "content": "Before you start, ensure you have the following: A computer with administrative access.Internet connection.An active company Google Cloud account.Access to the team’s repository on Azure DevOps (request access if not already provided).Visual Studio or preferred IDE (e.g., JetBrains Rider) installed."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 1: Install Required Software",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-1-install-required-software",
+    "content": ".NET Core SDK Download and install the latest .NET Core SDK from dotnet.microsoft.com.Verify the installation by running the following command in your terminal:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 1: Install Required Software",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-1-install-required-software",
+    "content": "Google Cloud SDK Download and install the Google Cloud SDK from cloud.google.com/sdk.Authenticate with your company Google Cloud account:Set the default project:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 1: Install Required Software",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-1-install-required-software",
+    "content": "Git Download and install Git from git-scm.com.Configure Git with your user information:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 1: Install Required Software",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-1-install-required-software",
+    "content": "Docker (if required for microservices or containerized environments) Download and install Docker from docker.com.Verify the installation by running:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 2: Set Up Your IDE (Visual Studio or Rider)",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-2-set-up-your-ide-visual-studio-or-rider",
+    "content": "Download and Install Visual Studio or Rider Download and install Visual Studio or JetBrains Rider."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 2: Set Up Your IDE (Visual Studio or Rider)",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-2-set-up-your-ide-visual-studio-or-rider",
+    "content": "Install Required Extensions/Plugins For Visual Studio, ensure the following workloads are installed:ASP.NET and web developmentAzure development (optional if you use Azure alongside Google Cloud)Install necessary extensions:Resharper (for code productivity, optional for VS users)Google Cloud Tools for Visual StudioFor Rider, you can install relevant plugins for C# development and Google Cloud integration via the JetBrains marketplace."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 3: Getting Started",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-3-getting-started",
+    "content": "Clone the Repository: Use the following command to clone the repository:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 3: Getting Started",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-3-getting-started",
+    "content": "Set Up Dependencies: Navigate to the project folder and install any required dependencies using:If Docker is used, spin up the necessary services with:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 3: Getting Started",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-3-getting-started",
+    "content": "Environment Variables: Copy the .env.example file to .env and configure the required environment variables for local development (e.g., database connection strings, Google Cloud credentials).Example:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 3: Getting Started",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-3-getting-started",
+    "content": "Run the Application: To run the application locally, use the following command:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 3: Getting Started",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-3-getting-started",
+    "content": "Running Tests: Execute unit tests using:For integration tests, follow the documentation in the tests/ folder."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 4: Set Up Google Cloud",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-4-set-up-google-cloud",
+    "content": "Configure Google Cloud Services: Ensure you have access to the necessary Google Cloud services such as Cloud Storage, Firestore, Pub/Sub, or Compute Engine. Reach out to the DevOps team if you need access to any services or projects."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 4: Set Up Google Cloud",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-4-set-up-google-cloud",
+    "content": "Deploying to Google Cloud: For deployment, follow the deployment documentation available in the repository. Example deployment commands:Ensure you configure the right environment variables for production, staging, or development environments."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 5: Additional Resources and Support",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-5-additional-resources-and-support",
+    "content": "Documentation Familiarize yourself with the project’s documentation available in the repository’s README.md file or the project wiki."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 5: Additional Resources and Support",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-5-additional-resources-and-support",
+    "content": "Team Communication Join the team’s communication channels (Slack, Google Chat, etc.) and introduce yourself."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 5: Additional Resources and Support",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-5-additional-resources-and-support",
+    "content": "Mentorship and Support You will be paired with a mentor who can guide you through the architecture, tools, and processes. Don’t hesitate to ask questions or request assistance."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Conclusion",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "conclusion",
+    "content": "You are now set up and ready to start contributing to the project. We look forward to seeing your contributions and collaboration. Welcome to the team! If you have any questions or run into any issues, please reach out to your mentor or any team member. Happy coding!"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Extension Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Extension Onboarding",
+    "section": "Extension Onboarding",
+    "route": "/onboarding-process/extension-onboarding",
+    "fragment": "extension-onboarding",
+    "content": "Welcome to the team! We're excited to have you on board as a new Browser Extension Developer. This document will guide you through the onboarding process and help you set up your local development environment using the WXT framework, ReactJS, and TypeScript."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Extension Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Extension Onboarding",
+    "section": "Pre-Onboarding Checklist",
+    "route": "/onboarding-process/extension-onboarding",
+    "fragment": "pre-onboarding-checklist",
+    "content": "Before you start, ensure you have the following: A computer with administrative access.Internet connection.Access to the team's repository on GitHub/Bitbucket/Azure DevOps (request access if not already provided).An active developer account for the relevant browser (e.g., Chrome Web Store, Mozilla Add-ons, etc.)."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Extension Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Extension Onboarding",
+    "section": "Step 1: Install Required Software",
+    "route": "/onboarding-process/extension-onboarding",
+    "fragment": "step-1-install-required-software",
+    "content": "Node.js and npm Download and install the latest LTS version of Node.js from nodejs.org.Verify the installation by running the following commands in your terminal:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Extension Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Extension Onboarding",
+    "section": "Step 1: Install Required Software",
+    "route": "/onboarding-process/extension-onboarding",
+    "fragment": "step-1-install-required-software",
+    "content": "Git Download and install Git from git-scm.com.Configure Git with your user information:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Extension Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Extension Onboarding",
+    "section": "Step 1: Install Required Software",
+    "route": "/onboarding-process/extension-onboarding",
+    "fragment": "step-1-install-required-software",
+    "content": "WXT CLI Install the WXT CLI globally:Verify the installation:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Extension Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Extension Onboarding",
+    "section": "Step 1: Install Required Software",
+    "route": "/onboarding-process/extension-onboarding",
+    "fragment": "step-1-install-required-software",
+    "content": "Visual Studio Code (VS Code) Download and install VS Code from code.visualstudio.com."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Extension Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Extension Onboarding",
+    "section": "Step 1: Install Required Software",
+    "route": "/onboarding-process/extension-onboarding",
+    "fragment": "step-1-install-required-software",
+    "content": "Browser Developer Tools Ensure you have the Chrome and/or Firefox Developer Tools installed, which allow you to test and debug extensions:Chrome Extensions Developer DashboardFirefox Developer Hub"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Extension Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Extension Onboarding",
+    "section": "Step 2: Set Up Your Development Environment",
+    "route": "/onboarding-process/extension-onboarding",
+    "fragment": "step-2-set-up-your-development-environment",
+    "content": "Clone the Repository: Clone the project repository using Git:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Extension Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Extension Onboarding",
+    "section": "Step 2: Set Up Your Development Environment",
+    "route": "/onboarding-process/extension-onboarding",
+    "fragment": "step-2-set-up-your-development-environment",
+    "content": "Install Dependencies: Navigate to the project folder and install dependencies using npm:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Extension Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Extension Onboarding",
+    "section": "Step 2: Set Up Your Development Environment",
+    "route": "/onboarding-process/extension-onboarding",
+    "fragment": "step-2-set-up-your-development-environment",
+    "content": "Environment Variables: Set up environment variables by copying the .env.example file to .env and configuring the necessary variables for local development.Example:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Extension Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Extension Onboarding",
+    "section": "Step 2: Set Up Your Development Environment",
+    "route": "/onboarding-process/extension-onboarding",
+    "fragment": "step-2-set-up-your-development-environment",
+    "content": "Running the Extension in Development Mode: Use WXT to build and load the extension into your browser’s developer environment:For Firefox or other browsers, adjust the command accordingly:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Extension Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Extension Onboarding",
+    "section": "Step 2: Set Up Your Development Environment",
+    "route": "/onboarding-process/extension-onboarding",
+    "fragment": "step-2-set-up-your-development-environment",
+    "content": "Building the Extension for Production: When you're ready to build the extension for production, use the following command:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Extension Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Extension Onboarding",
+    "section": "Step 3: Set Up VS Code",
+    "route": "/onboarding-process/extension-onboarding",
+    "fragment": "step-3-set-up-vs-code",
+    "content": "Install Required Extensions Launch VS Code and install the following extensions:ESLint: ESLintPrettier - Code Formatter: PrettierReactJS Snippets: ES7+ React/Redux/React-Native snippetsTypeScript Hero: TypeScript HeroDebugger for Chrome: Debugger for ChromeJest: Jest (if testing with Jest)GitLens: GitLens — Git supercharged"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Extension Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Extension Onboarding",
+    "section": "Step 4: Running Tests",
+    "route": "/onboarding-process/extension-onboarding",
+    "fragment": "step-4-running-tests",
+    "content": "Unit Tests: Run unit tests using the following command:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Extension Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Extension Onboarding",
+    "section": "Step 4: Running Tests",
+    "route": "/onboarding-process/extension-onboarding",
+    "fragment": "step-4-running-tests",
+    "content": "Integration Tests: If there are integration tests, run them using:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Extension Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Extension Onboarding",
+    "section": "Step 4: Running Tests",
+    "route": "/onboarding-process/extension-onboarding",
+    "fragment": "step-4-running-tests",
+    "content": "Debugging: Use the VS Code Chrome Debugger extension to debug the browser extension directly within the IDE."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Extension Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Extension Onboarding",
+    "section": "Step 5: Additional Resources and Support",
+    "route": "/onboarding-process/extension-onboarding",
+    "fragment": "step-5-additional-resources-and-support",
+    "content": "Documentation Familiarize yourself with the project’s documentation available in the repository’s README.md file or the project wiki."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Extension Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Extension Onboarding",
+    "section": "Step 5: Additional Resources and Support",
+    "route": "/onboarding-process/extension-onboarding",
+    "fragment": "step-5-additional-resources-and-support",
+    "content": "Team Communication Join the team’s communication channels (Slack, Google Chat, etc.) and introduce yourself."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Extension Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Extension Onboarding",
+    "section": "Step 5: Additional Resources and Support",
+    "route": "/onboarding-process/extension-onboarding",
+    "fragment": "step-5-additional-resources-and-support",
+    "content": "Mentorship and Support You will be paired with a mentor who can help guide you through the project architecture, development practices, and tools used by the team."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Extension Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Extension Onboarding",
+    "section": "Conclusion",
+    "route": "/onboarding-process/extension-onboarding",
+    "fragment": "conclusion",
+    "content": "You are now set up and ready to start developing your browser extension. We look forward to your contributions and collaboration. Welcome to the team! If you have any questions or run into any issues, don't hesitate to reach out to your mentor or any team member. Happy coding!"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Frontend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Onboarding",
+    "section": "Onboarding Process for New Frontend Developer",
+    "route": "/onboarding-process/frontend-onboarding",
+    "fragment": "onboarding-process-for-new-frontend-developer",
+    "content": "Welcome to the team! We're excited to have you on board as a new Frontend Developer. This document will guide you through the onboarding process and help you set up your local development environment with the necessary tools and preconditions."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Frontend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Onboarding",
+    "section": "Pre-Onboarding Checklist",
+    "route": "/onboarding-process/frontend-onboarding",
+    "fragment": "pre-onboarding-checklist",
+    "content": "Before you start, ensure you have the following: A computer with administrative access.Internet connection.An active RiskPhysics account.Access to the team's repository on Azure DevOps (request access if not already provided)."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Frontend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Onboarding",
+    "section": "Step 1: Install Required Software",
+    "route": "/onboarding-process/frontend-onboarding",
+    "fragment": "step-1-install-required-software",
+    "content": "Node.js and npm Download and install the latest LTS version of Node.js from nodejs.org.Verify the installation by running the following commands in your terminal:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Frontend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Onboarding",
+    "section": "Step 1: Install Required Software",
+    "route": "/onboarding-process/frontend-onboarding",
+    "fragment": "step-1-install-required-software",
+    "content": "Git Download and install Git from git-scm.com.Configure Git with your user information:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Frontend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Onboarding",
+    "section": "Step 1: Install Required Software",
+    "route": "/onboarding-process/frontend-onboarding",
+    "fragment": "step-1-install-required-software",
+    "content": "Angular CLI Install the Angular CLI globally:Verify the installation:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Frontend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Onboarding",
+    "section": "Step 2: Set Up Visual Studio Code (VS Code)",
+    "route": "/onboarding-process/frontend-onboarding",
+    "fragment": "step-2-set-up-visual-studio-code-vs-code",
+    "content": "Download and Install VS Code Download and install VS Code from code.visualstudio.com."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Frontend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Onboarding",
+    "section": "Step 2: Set Up Visual Studio Code (VS Code)",
+    "route": "/onboarding-process/frontend-onboarding",
+    "fragment": "step-2-set-up-visual-studio-code-vs-code",
+    "content": "Install Required Extensions Launch VS Code and install the following extensions:Angular Snippets: Angular SnippetsAngular Language Service: Angular Language ServiceAuto Close Tag: Auto Close TagAuto Comment Blocks: Auto Comment BlocksBetter Comments: Better CommentsGitHub Copilot: GitHub CopilotGitHub Copilot Chat: GitHub Copilot ChatAuto Rename Tag: Auto Rename TagCode Spell Checker: Code Spell CheckerESLint: ESLintGit Graph: Git GraphCSS Peek: CSS PeekNx Console: Nx Consolenpm Dependency Links: npm Dependency Links"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Frontend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Onboarding",
+    "section": "Step 3: Getting Started",
+    "route": "/onboarding-process/frontend-onboarding",
+    "fragment": "step-3-getting-started",
+    "content": "Clone the repository"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Frontend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Onboarding",
+    "section": "Step 3: Getting Started",
+    "route": "/onboarding-process/frontend-onboarding",
+    "fragment": "step-3-getting-started",
+    "content": ":"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Frontend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Onboarding",
+    "section": "Step 3: Getting Started",
+    "route": "/onboarding-process/frontend-onboarding",
+    "fragment": "step-3-getting-started",
+    "content": "Install dependencies"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Frontend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Onboarding",
+    "section": "Step 3: Getting Started",
+    "route": "/onboarding-process/frontend-onboarding",
+    "fragment": "step-3-getting-started",
+    "content": ":"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Frontend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Onboarding",
+    "section": "Step 3: Getting Started",
+    "route": "/onboarding-process/frontend-onboarding",
+    "fragment": "step-3-getting-started",
+    "content": "Initialize git submodule"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Frontend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Onboarding",
+    "section": "Step 3: Getting Started",
+    "route": "/onboarding-process/frontend-onboarding",
+    "fragment": "step-3-getting-started",
+    "content": ":"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Frontend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Onboarding",
+    "section": "Step 3: Getting Started",
+    "route": "/onboarding-process/frontend-onboarding",
+    "fragment": "step-3-getting-started",
+    "content": "Update git submodule"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Frontend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Onboarding",
+    "section": "Step 3: Getting Started",
+    "route": "/onboarding-process/frontend-onboarding",
+    "fragment": "step-3-getting-started",
+    "content": ":"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Frontend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Onboarding",
+    "section": "Step 3: Getting Started",
+    "route": "/onboarding-process/frontend-onboarding",
+    "fragment": "step-3-getting-started",
+    "content": "Start the dev server"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Frontend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Onboarding",
+    "section": "Step 3: Getting Started",
+    "route": "/onboarding-process/frontend-onboarding",
+    "fragment": "step-3-getting-started",
+    "content": ":"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Frontend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Onboarding",
+    "section": "Step 4: Additional Resources and Support",
+    "route": "/onboarding-process/frontend-onboarding",
+    "fragment": "step-4-additional-resources-and-support",
+    "content": "Documentation Familiarize yourself with the project’s documentation available in the repository’s README.md file or the project wiki."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Frontend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Onboarding",
+    "section": "Step 4: Additional Resources and Support",
+    "route": "/onboarding-process/frontend-onboarding",
+    "fragment": "step-4-additional-resources-and-support",
+    "content": "Team Communication Join the team’s communication channels in Google Chat and introduce yourself."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Frontend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Onboarding",
+    "section": "Step 4: Additional Resources and Support",
+    "route": "/onboarding-process/frontend-onboarding",
+    "fragment": "step-4-additional-resources-and-support",
+    "content": "Mentorship and Support Feel free to reach out to your assigned mentor or any team member for help and guidance."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Frontend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Frontend Onboarding",
+    "section": "Conclusion",
+    "route": "/onboarding-process/frontend-onboarding",
+    "fragment": "conclusion",
+    "content": "You are now set up and ready to start contributing to the project. We look forward to seeing your great work and collaboration. Welcome to the team! If you have any questions or run into any issues, do not hesitate to ask for help. Happy coding!"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "QE Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "QE Onboarding",
+    "section": "QE Onboarding",
+    "route": "/onboarding-process/qe-onboarding",
+    "fragment": "qe-onboarding",
+    "content": "Coming Soon!"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "SRE Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "SRE Onboarding",
+    "section": "SRE Onboarding",
+    "route": "/onboarding-process/sre-onboarding",
+    "fragment": "sre-onboarding",
+    "content": "Coming Soon!"
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Business Rules"
+    ],
+    "pageType": "guide",
+    "title": "Business Rules",
+    "section": "Business Rules",
+    "route": "/product-documentation/business-rules",
+    "fragment": "business-rules",
+    "content": "Coming Soon!"
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "FAQ"
+    ],
+    "pageType": "guide",
+    "title": "FAQ",
+    "section": "FAQ",
+    "route": "/product-documentation/faq",
+    "fragment": "faq",
+    "content": "Coming Soon!"
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Feature Docs"
+    ],
+    "pageType": "guide",
+    "title": "Feature Docs",
+    "section": "Feature Docs",
+    "route": "/product-documentation/feature-docs",
+    "fragment": "feature-docs",
+    "content": "This document provides an overview of features related to the RiskPhysics project. Each feature is described in detail, its scope, objectives and business flows."
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Feature Docs"
+    ],
+    "pageType": "guide",
+    "title": "Feature Docs",
+    "section": "Feature Docs",
+    "route": "/product-documentation/feature-docs",
+    "fragment": "feature-docs",
+    "content": "Feature Name Description"
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Feature Docs"
+    ],
+    "pageType": "guide",
+    "title": "Feature Docs",
+    "section": "Feature Docs",
+    "route": "/product-documentation/feature-docs",
+    "fragment": "feature-docs",
+    "content": "SaaS Apps"
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Feature Docs"
+    ],
+    "pageType": "guide",
+    "title": "Feature Docs",
+    "section": "Feature Docs",
+    "route": "/product-documentation/feature-docs",
+    "fragment": "feature-docs",
+    "content": "Inventory and profile of SaaS Apps accessed and used including profiles of their settings, known vulnerabilities and risk score."
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Point Of View"
+    ],
+    "pageType": "guide",
+    "title": "Point Of View",
+    "section": "Point Of View",
+    "route": "/product-documentation/point-of-view",
+    "fragment": "point-of-view",
+    "content": "RiskPhysics is a comprehensive Risk Management Solution that empowers you to reduce your attack surface continuously and monitor it proactively. Unlike any other solution RiskPhysics can discover, profile and risk assess any modern application such as SaaS, Web-Based, PWA or Browser Extension. Application sprawl is a real issue, as organizations have hundreds and sometimes thousands of apps in their environment. Because you can't protect what you cannot see, how do you even start prioritizing and focusing on the most critical apps? RiskPhysics utilizes a unique discovery process in combination with ML models, processes, and tools. We train our ML so that you can understand which apps are risky, which apps are sanctioned, sanctioned, new or recently installed. You can then identify apps that pose real security risks, immediately reducing your attack surface as well as potentially reducing costs. RiskPhysics identifies applications by type and categorizes them. For example, applications can be filtered by productivity tools, which allows you to understand exactly which productivity apps are installed in your organization. This allows quick visibility into productivity apps in use that have a high permission risk level. RiskPhysics creates a magnifying glass that saves your risk and compliance teams hundreds of hours trying to manually generate the same outcome with manual audits or spread sheet tracking. RiskPhysics also provides a mapping of which users are using each application, what their role and department are, and the IdP user context, such as if the user is a Google Workspace, Okta authenticated user or a high target user such as a C-level executive likely to be targeted more than other users. RiskPhysics also provides SaaS to SaaS permission mapping based on risk level by consolidating all the permissions apps have between each other across your entire app environment. For example, we can see that a productivity app has permissions to see, edit, and delete your Google presentations, which pose a high risk level, or even allow scripts to make external requests to potentially untrusted sources. Browser Extensions could be declaring permissions allowing them to interact with browser tabs that could be running a SaaS or Web-App with sensitive financial data, screen capturing content and sending it to unknown locations. PWAs could be installed with unnecessary access to local devices though the browser such as the camera, microphone or storage. Once organizations are able to understand the context of these apps, how they are being used and what they are interacting with, their true risk level can be better assessed. With that information, organizations can start governing these apps by proactively authorizing or unauthorize them. Once organizations know which apps are unauthorized, they can start automatically detecting users logging into unauthorized apps.  Visit riskphysics.io to learn how RiskPhysics can help you secure….."
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Release Notes"
+    ],
+    "pageType": "guide",
+    "title": "Release Notes",
+    "section": "Release Notes",
+    "route": "/product-documentation/release-notes",
+    "fragment": "release-notes",
+    "content": "Coming Soon!"
+  }
+]
