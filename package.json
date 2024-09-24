@@ -1,11 +1,11 @@
 {
-  "name": "docs-site",
+  "name": "doc-site",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:prod": "ng build --configuration=production --base-href=/docs-site/",
+    "build:prod": "ng build --configuration=production --base-href=/doc-site/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

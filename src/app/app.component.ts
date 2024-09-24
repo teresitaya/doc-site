@@ -23,7 +23,7 @@ import { filter } from "rxjs";
   styleUrl: './app.component.scss',
 })
 export class AppComponent implements OnInit {
-  title = 'docs-site';
+  title = 'doc-site';
   currentTheme:any;
   logo:string = 'assets/img/Logotype-DarkMode.svg';
   leftContent:any;

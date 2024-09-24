@@ -4,10 +4,10 @@
   "compilerOptions": {
     "paths": {
       "@ng-doc/generated": [
-        "./ng-doc/docs-site/index.ts"
+        "./ng-doc/doc-site/index.ts"
       ],
       "@ng-doc/generated/*": [
-        "./ng-doc/docs-site/*"
+        "./ng-doc/doc-site/*"
       ]
     },
     "outDir": "./dist/out-tsc",
