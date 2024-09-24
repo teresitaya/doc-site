@@ -39,11 +39,11 @@ export const appConfig: ApplicationConfig = {
             // Your theme ID that you can use to enable theme
             id: 'rp-dark',
             // Path to the theme, that will be used by NgDoc to load theme
-            path: '../assets/themes/rp-dark.css',
+            path: 'assets/themes/rp-dark.css',
           },
           {
             id: 'rp-light',
-            path: '../assets/themes/rp-light.css',
+            path: 'assets/themes/rp-light.css',
           }
         ],
         defaultThemeId: 'rp-dark',
