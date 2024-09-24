@@ -659,6 +659,90 @@
   },
   {
     "breadcrumbs": [
+      "Onboarding Process",
+      "Onboarding Process"
+    ],
+    "pageType": "guide",
+    "title": "Onboarding Process",
+    "section": "Onboarding Process",
+    "route": "/onboarding-process/onboarding-process",
+    "fragment": "onboarding-process",
+    "content": "A smooth and well-structured onboarding process is crucial for helping you, as a new developer, become productive as quickly as possible. Our onboarding process is broken down into more detail:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Onboarding Process"
+    ],
+    "pageType": "guide",
+    "title": "Onboarding Process",
+    "section": "Onboarding Process",
+    "route": "/onboarding-process/onboarding-process",
+    "fragment": "onboarding-process",
+    "content": "Setup Documentation"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Onboarding Process"
+    ],
+    "pageType": "guide",
+    "title": "Onboarding Process",
+    "section": "Onboarding Process",
+    "route": "/onboarding-process/onboarding-process",
+    "fragment": "onboarding-process",
+    "content": "Ensuring that you can set up your development environment without major roadblocks is the first critical step. Here's what this includes: Repository Access:Instructions: Follow the steps provided to request or gain access to the necessary repositories.Permissions: Contact the team lead for access and ensure you're aware of which branches are relevant for your tasks (e.g., development, main, or feature branches).Cloning Repositories:Git Workflow: The team follows specific version control practices. Whether we use Git Flow or trunk-based development, you’ll need to be aware of the process.Example: Use this command to clone the main repository:Setting Up Dependencies:Instructions: A list of dependencies like Node.js, Docker, etc., will be provided with clear installation steps.Automation: Where possible, you'll have scripts available (e.g., setup.sh) to automate the installation of dependencies or to spin up Docker containers.Environment Configuration:Environment Variables: You will be provided with the necessary environment variables for local development. We will also provide a sample .env file (e.g., .env.example) to guide you.Secrets Management: You’ll learn how we handle sensitive information like API keys and credentials, possibly using tools like GCloud Secrets Manager or Vault.Running the Application:Instructions: A step-by-step guide will show you how to run the application locally, whether through Docker, npm run dev, or other commands.Test Data: Guidance will be provided on how to set up or access test data, seed the database if needed, and identify which services or endpoints need to be active for the app to function locally.Running Tests:Unit Tests: You'll receive instructions on running unit tests (e.g., npm run test) and how to check coverage or logs.Integration Tests: There will be documentation on how to set up and run integration tests.Debugging Tools: We’ll provide tips on debugging with tools like Chrome DevTools, VSCode, or other relevant platforms.For specific guidance check each Solution Onboarding Process Document:FrontendBackendExtensionQESRE"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Onboarding Process"
+    ],
+    "pageType": "guide",
+    "title": "Onboarding Process",
+    "section": "Onboarding Process",
+    "route": "/onboarding-process/onboarding-process",
+    "fragment": "onboarding-process",
+    "content": "Mentorship/Buddy System"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Onboarding Process"
+    ],
+    "pageType": "guide",
+    "title": "Onboarding Process",
+    "section": "Onboarding Process",
+    "route": "/onboarding-process/onboarding-process",
+    "fragment": "onboarding-process",
+    "content": "The mentorship or buddy system will help you quickly integrate with the team culture and our technical processes. Mentor Assignment:You will be paired with a senior or experienced engineer. This person will help answer your questions, review your code, and ensure you follow our best practices.Your buddy will also introduce you to team rituals like stand-ups, retrospectives, key tools (AzureDevops, Google Workspace), and our engineering workflows.First Month Engagement:1:1 Meetings: We recommend weekly 1:1 meetings with your mentor to provide feedback, resolve blockers, and track your progress.Pair Programming: You'll have some pair programming sessions to help you get familiar with the codebase, coding standards, and contribute to smaller tasks.Knowledge Transfer:Your buddy will provide you with guidance on the project's architecture and technical decisions.You’ll be introduced to best practices, coding standards, and where to find key documentation and repositories."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Onboarding Process"
+    ],
+    "pageType": "guide",
+    "title": "Onboarding Process",
+    "section": "Onboarding Process",
+    "route": "/onboarding-process/onboarding-process",
+    "fragment": "onboarding-process",
+    "content": "90-Day Plan"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Onboarding Process"
+    ],
+    "pageType": "guide",
+    "title": "Onboarding Process",
+    "section": "Onboarding Process",
+    "route": "/onboarding-process/onboarding-process",
+    "fragment": "onboarding-process",
+    "content": "The 90-day plan is designed to help you integrate smoothly into the team with clear goals and expectations. It is structured into three phases: learning, contributing, and taking ownership. First 30 Days (Learning & Setup):Goals: By the end of your first month, you should be familiar with the company’s tools, codebase, and workflows. You should also feel confident in setting up and running the local environment, navigating the repositories, and understanding the broader architecture.Tasks: You’ll start with simple bug fixes, documentation updates, or small feature additions to get comfortable with our processes.Training: Internal training sessions or relevant resources (like coding standards and system architecture overview) will be made available to help you understand our environment.Next 30 Days (Contributing):Goals: By the end of your second month, you should be contributing meaningfully to the codebase. You'll be expected to work on more complex work items and take part in code reviews.Tasks: In this phase, you'll work on medium-sized features and contribute to sprint planning and retrospectives.Team Integration: You’re encouraged to start leading stand-ups or retrospectives to build confidence and improve communication within the team.Final 30 Days (Ownership & Improvement):Goals: By the end of the third month, you should be taking ownership of small features or projects. At this stage, you'll demonstrate your ability to take a work item from planning to execution and delivery.Tasks: You'll work on cross-team collaborations, implement significant parts of the application, or handle complex bugs that require in-depth problem-solving.Feedback & Evaluation: At the end of 90 days, you’ll receive formal feedback from your mentor and team lead to review your progress and areas for improvement. By following this onboarding process, you'll gradually become comfortable with the codebase, team dynamics, and company standards, allowing you to contribute efficiently and confidently."
+  },
+  {
+    "breadcrumbs": [
       "Product Documentation",
       "Product Documentation"
     ],
@@ -803,90 +887,6 @@
   },
   {
     "breadcrumbs": [
-      "Onboarding Process",
-      "Onboarding Process"
-    ],
-    "pageType": "guide",
-    "title": "Onboarding Process",
-    "section": "Onboarding Process",
-    "route": "/onboarding-process/onboarding-process",
-    "fragment": "onboarding-process",
-    "content": "A smooth and well-structured onboarding process is crucial for helping you, as a new developer, become productive as quickly as possible. Our onboarding process is broken down into more detail:"
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Onboarding Process"
-    ],
-    "pageType": "guide",
-    "title": "Onboarding Process",
-    "section": "Onboarding Process",
-    "route": "/onboarding-process/onboarding-process",
-    "fragment": "onboarding-process",
-    "content": "Setup Documentation"
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Onboarding Process"
-    ],
-    "pageType": "guide",
-    "title": "Onboarding Process",
-    "section": "Onboarding Process",
-    "route": "/onboarding-process/onboarding-process",
-    "fragment": "onboarding-process",
-    "content": "Ensuring that you can set up your development environment without major roadblocks is the first critical step. Here's what this includes: Repository Access:Instructions: Follow the steps provided to request or gain access to the necessary repositories.Permissions: Contact the team lead for access and ensure you're aware of which branches are relevant for your tasks (e.g., development, main, or feature branches).Cloning Repositories:Git Workflow: The team follows specific version control practices. Whether we use Git Flow or trunk-based development, you’ll need to be aware of the process.Example: Use this command to clone the main repository:Setting Up Dependencies:Instructions: A list of dependencies like Node.js, Docker, etc., will be provided with clear installation steps.Automation: Where possible, you'll have scripts available (e.g., setup.sh) to automate the installation of dependencies or to spin up Docker containers.Environment Configuration:Environment Variables: You will be provided with the necessary environment variables for local development. We will also provide a sample .env file (e.g., .env.example) to guide you.Secrets Management: You’ll learn how we handle sensitive information like API keys and credentials, possibly using tools like GCloud Secrets Manager or Vault.Running the Application:Instructions: A step-by-step guide will show you how to run the application locally, whether through Docker, npm run dev, or other commands.Test Data: Guidance will be provided on how to set up or access test data, seed the database if needed, and identify which services or endpoints need to be active for the app to function locally.Running Tests:Unit Tests: You'll receive instructions on running unit tests (e.g., npm run test) and how to check coverage or logs.Integration Tests: There will be documentation on how to set up and run integration tests.Debugging Tools: We’ll provide tips on debugging with tools like Chrome DevTools, VSCode, or other relevant platforms.For specific guidance check each Solution Onboarding Process Document:FrontendBackendExtensionQESRE"
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Onboarding Process"
-    ],
-    "pageType": "guide",
-    "title": "Onboarding Process",
-    "section": "Onboarding Process",
-    "route": "/onboarding-process/onboarding-process",
-    "fragment": "onboarding-process",
-    "content": "Mentorship/Buddy System"
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Onboarding Process"
-    ],
-    "pageType": "guide",
-    "title": "Onboarding Process",
-    "section": "Onboarding Process",
-    "route": "/onboarding-process/onboarding-process",
-    "fragment": "onboarding-process",
-    "content": "The mentorship or buddy system will help you quickly integrate with the team culture and our technical processes. Mentor Assignment:You will be paired with a senior or experienced engineer. This person will help answer your questions, review your code, and ensure you follow our best practices.Your buddy will also introduce you to team rituals like stand-ups, retrospectives, key tools (AzureDevops, Google Workspace), and our engineering workflows.First Month Engagement:1:1 Meetings: We recommend weekly 1:1 meetings with your mentor to provide feedback, resolve blockers, and track your progress.Pair Programming: You'll have some pair programming sessions to help you get familiar with the codebase, coding standards, and contribute to smaller tasks.Knowledge Transfer:Your buddy will provide you with guidance on the project's architecture and technical decisions.You’ll be introduced to best practices, coding standards, and where to find key documentation and repositories."
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Onboarding Process"
-    ],
-    "pageType": "guide",
-    "title": "Onboarding Process",
-    "section": "Onboarding Process",
-    "route": "/onboarding-process/onboarding-process",
-    "fragment": "onboarding-process",
-    "content": "90-Day Plan"
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Onboarding Process"
-    ],
-    "pageType": "guide",
-    "title": "Onboarding Process",
-    "section": "Onboarding Process",
-    "route": "/onboarding-process/onboarding-process",
-    "fragment": "onboarding-process",
-    "content": "The 90-day plan is designed to help you integrate smoothly into the team with clear goals and expectations. It is structured into three phases: learning, contributing, and taking ownership. First 30 Days (Learning & Setup):Goals: By the end of your first month, you should be familiar with the company’s tools, codebase, and workflows. You should also feel confident in setting up and running the local environment, navigating the repositories, and understanding the broader architecture.Tasks: You’ll start with simple bug fixes, documentation updates, or small feature additions to get comfortable with our processes.Training: Internal training sessions or relevant resources (like coding standards and system architecture overview) will be made available to help you understand our environment.Next 30 Days (Contributing):Goals: By the end of your second month, you should be contributing meaningfully to the codebase. You'll be expected to work on more complex work items and take part in code reviews.Tasks: In this phase, you'll work on medium-sized features and contribute to sprint planning and retrospectives.Team Integration: You’re encouraged to start leading stand-ups or retrospectives to build confidence and improve communication within the team.Final 30 Days (Ownership & Improvement):Goals: By the end of the third month, you should be taking ownership of small features or projects. At this stage, you'll demonstrate your ability to take a work item from planning to execution and delivery.Tasks: You'll work on cross-team collaborations, implement significant parts of the application, or handle complex bugs that require in-depth problem-solving.Feedback & Evaluation: At the end of 90 days, you’ll receive formal feedback from your mentor and team lead to review your progress and areas for improvement. By following this onboarding process, you'll gradually become comfortable with the codebase, team dynamics, and company standards, allowing you to contribute efficiently and confidently."
-  },
-  {
-    "breadcrumbs": [
       "Architecture Documentation",
       "Backend Architecture Overview"
     ],
@@ -900,13 +900,13 @@
   {
     "breadcrumbs": [
       "Architecture Documentation",
-      "Frontend Architecture Overview"
+      "CI-CD Architecture Overview"
     ],
     "pageType": "guide",
-    "title": "Frontend Architecture Overview",
-    "section": "Frontend Architecture Overview",
-    "route": "/architecture-documentation/frontend-architecture-overview",
-    "fragment": "frontend-architecture-overview",
+    "title": "CI-CD Architecture Overview",
+    "section": "CI-CD Architecture Overview",
+    "route": "/architecture-documentation/ci-cd-architecture-overview",
+    "fragment": "ci-cd-architecture-overview",
     "content": "Coming Soon!"
   },
   {
@@ -1956,13 +1956,13 @@
   {
     "breadcrumbs": [
       "Architecture Documentation",
-      "CI-CD Architecture Overview"
+      "Frontend Architecture Overview"
     ],
     "pageType": "guide",
-    "title": "CI-CD Architecture Overview",
-    "section": "CI-CD Architecture Overview",
-    "route": "/architecture-documentation/ci-cd-architecture-overview",
-    "fragment": "ci-cd-architecture-overview",
+    "title": "Frontend Architecture Overview",
+    "section": "Frontend Architecture Overview",
+    "route": "/architecture-documentation/frontend-architecture-overview",
+    "fragment": "frontend-architecture-overview",
     "content": "Coming Soon!"
   },
   {
@@ -1992,90 +1992,6 @@
   {
     "breadcrumbs": [
       "Architecture Documentation",
-      "UI-UX Standard"
-    ],
-    "pageType": "guide",
-    "title": "UI-UX Standard",
-    "section": "UI-UX Standard",
-    "route": "/architecture-documentation/ui-ux-standard",
-    "fragment": "ui-ux-standard",
-    "content": "Coming Soon!"
-  },
-  {
-    "breadcrumbs": [
-      "Product Documentation",
-      "Business Rules"
-    ],
-    "pageType": "guide",
-    "title": "Business Rules",
-    "section": "Business Rules",
-    "route": "/product-documentation/business-rules",
-    "fragment": "business-rules",
-    "content": "Coming Soon!"
-  },
-  {
-    "breadcrumbs": [
-      "Product Documentation",
-      "Feature Docs"
-    ],
-    "pageType": "guide",
-    "title": "Feature Docs",
-    "section": "Feature Docs",
-    "route": "/product-documentation/feature-docs",
-    "fragment": "feature-docs",
-    "content": "This document provides an overview of features related to the RiskPhysics project. Each feature is described in detail, its scope, objectives and business flows."
-  },
-  {
-    "breadcrumbs": [
-      "Product Documentation",
-      "Feature Docs"
-    ],
-    "pageType": "guide",
-    "title": "Feature Docs",
-    "section": "Feature Docs",
-    "route": "/product-documentation/feature-docs",
-    "fragment": "feature-docs",
-    "content": "Feature Name Description"
-  },
-  {
-    "breadcrumbs": [
-      "Product Documentation",
-      "Feature Docs"
-    ],
-    "pageType": "guide",
-    "title": "Feature Docs",
-    "section": "Feature Docs",
-    "route": "/product-documentation/feature-docs",
-    "fragment": "feature-docs",
-    "content": "SaaS Apps"
-  },
-  {
-    "breadcrumbs": [
-      "Product Documentation",
-      "Feature Docs"
-    ],
-    "pageType": "guide",
-    "title": "Feature Docs",
-    "section": "Feature Docs",
-    "route": "/product-documentation/feature-docs",
-    "fragment": "feature-docs",
-    "content": "Inventory and profile of SaaS Apps accessed and used including profiles of their settings, known vulnerabilities and risk score."
-  },
-  {
-    "breadcrumbs": [
-      "Product Documentation",
-      "Point Of View"
-    ],
-    "pageType": "guide",
-    "title": "Point Of View",
-    "section": "Point Of View",
-    "route": "/product-documentation/point-of-view",
-    "fragment": "point-of-view",
-    "content": "RiskPhysics is a comprehensive Risk Management Solution that empowers you to reduce your attack surface continuously and monitor it proactively. Unlike any other solution RiskPhysics can discover, profile and risk assess any modern application such as SaaS, Web-Based, PWA or Browser Extension. Application sprawl is a real issue, as organizations have hundreds and sometimes thousands of apps in their environment. Because you can't protect what you cannot see, how do you even start prioritizing and focusing on the most critical apps? RiskPhysics utilizes a unique discovery process in combination with ML models, processes, and tools. We train our ML so that you can understand which apps are risky, which apps are sanctioned, sanctioned, new or recently installed. You can then identify apps that pose real security risks, immediately reducing your attack surface as well as potentially reducing costs. RiskPhysics identifies applications by type and categorizes them. For example, applications can be filtered by productivity tools, which allows you to understand exactly which productivity apps are installed in your organization. This allows quick visibility into productivity apps in use that have a high permission risk level. RiskPhysics creates a magnifying glass that saves your risk and compliance teams hundreds of hours trying to manually generate the same outcome with manual audits or spread sheet tracking. RiskPhysics also provides a mapping of which users are using each application, what their role and department are, and the IdP user context, such as if the user is a Google Workspace, Okta authenticated user or a high target user such as a C-level executive likely to be targeted more than other users. RiskPhysics also provides SaaS to SaaS permission mapping based on risk level by consolidating all the permissions apps have between each other across your entire app environment. For example, we can see that a productivity app has permissions to see, edit, and delete your Google presentations, which pose a high risk level, or even allow scripts to make external requests to potentially untrusted sources. Browser Extensions could be declaring permissions allowing them to interact with browser tabs that could be running a SaaS or Web-App with sensitive financial data, screen capturing content and sending it to unknown locations. PWAs could be installed with unnecessary access to local devices though the browser such as the camera, microphone or storage. Once organizations are able to understand the context of these apps, how they are being used and what they are interacting with, their true risk level can be better assessed. With that information, organizations can start governing these apps by proactively authorizing or unauthorize them. Once organizations know which apps are unauthorized, they can start automatically detecting users logging into unauthorized apps.  Visit riskphysics.io to learn how RiskPhysics can help you secure….."
-  },
-  {
-    "breadcrumbs": [
-      "Architecture Documentation",
       "Security Standard"
     ],
     "pageType": "guide",
@@ -2087,15 +2003,243 @@
   },
   {
     "breadcrumbs": [
-      "Product Documentation",
-      "Release Notes"
+      "Architecture Documentation",
+      "UI-UX Standard"
     ],
     "pageType": "guide",
-    "title": "Release Notes",
-    "section": "Release Notes",
-    "route": "/product-documentation/release-notes",
-    "fragment": "release-notes",
+    "title": "UI-UX Standard",
+    "section": "UI-UX Standard",
+    "route": "/architecture-documentation/ui-ux-standard",
+    "fragment": "ui-ux-standard",
     "content": "Coming Soon!"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Backend Onboarding",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "backend-onboarding",
+    "content": "Welcome to the team! We are excited to have you on board as a new Backend Developer. This document will guide you through the onboarding process and help you set up your local development environment with the necessary tools and configurations for C# .NET Core and Google Cloud."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Pre-Onboarding Checklist",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "pre-onboarding-checklist",
+    "content": "Before you start, ensure you have the following: A computer with administrative access.Internet connection.An active company Google Cloud account.Access to the team’s repository on Azure DevOps (request access if not already provided).Visual Studio or preferred IDE (e.g., JetBrains Rider) installed."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 1: Install Required Software",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-1-install-required-software",
+    "content": ".NET Core SDK Download and install the latest .NET Core SDK from dotnet.microsoft.com.Verify the installation by running the following command in your terminal:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 1: Install Required Software",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-1-install-required-software",
+    "content": "Google Cloud SDK Download and install the Google Cloud SDK from cloud.google.com/sdk.Authenticate with your company Google Cloud account:Set the default project:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 1: Install Required Software",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-1-install-required-software",
+    "content": "Git Download and install Git from git-scm.com.Configure Git with your user information:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 1: Install Required Software",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-1-install-required-software",
+    "content": "Docker (if required for microservices or containerized environments) Download and install Docker from docker.com.Verify the installation by running:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 2: Set Up Your IDE (Visual Studio or Rider)",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-2-set-up-your-ide-visual-studio-or-rider",
+    "content": "Download and Install Visual Studio or Rider Download and install Visual Studio or JetBrains Rider."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 2: Set Up Your IDE (Visual Studio or Rider)",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-2-set-up-your-ide-visual-studio-or-rider",
+    "content": "Install Required Extensions/Plugins For Visual Studio, ensure the following workloads are installed:ASP.NET and web developmentAzure development (optional if you use Azure alongside Google Cloud)Install necessary extensions:Resharper (for code productivity, optional for VS users)Google Cloud Tools for Visual StudioFor Rider, you can install relevant plugins for C# development and Google Cloud integration via the JetBrains marketplace."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 3: Getting Started",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-3-getting-started",
+    "content": "Clone the Repository: Use the following command to clone the repository:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 3: Getting Started",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-3-getting-started",
+    "content": "Set Up Dependencies: Navigate to the project folder and install any required dependencies using:If Docker is used, spin up the necessary services with:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 3: Getting Started",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-3-getting-started",
+    "content": "Environment Variables: Copy the .env.example file to .env and configure the required environment variables for local development (e.g., database connection strings, Google Cloud credentials).Example:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 3: Getting Started",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-3-getting-started",
+    "content": "Run the Application: To run the application locally, use the following command:"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 3: Getting Started",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-3-getting-started",
+    "content": "Running Tests: Execute unit tests using:For integration tests, follow the documentation in the tests/ folder."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 4: Set Up Google Cloud",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-4-set-up-google-cloud",
+    "content": "Configure Google Cloud Services: Ensure you have access to the necessary Google Cloud services such as Cloud Storage, Firestore, Pub/Sub, or Compute Engine. Reach out to the DevOps team if you need access to any services or projects."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 4: Set Up Google Cloud",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-4-set-up-google-cloud",
+    "content": "Deploying to Google Cloud: For deployment, follow the deployment documentation available in the repository. Example deployment commands:Ensure you configure the right environment variables for production, staging, or development environments."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 5: Additional Resources and Support",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-5-additional-resources-and-support",
+    "content": "Documentation Familiarize yourself with the project’s documentation available in the repository’s README.md file or the project wiki."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 5: Additional Resources and Support",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-5-additional-resources-and-support",
+    "content": "Team Communication Join the team’s communication channels (Slack, Google Chat, etc.) and introduce yourself."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Step 5: Additional Resources and Support",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "step-5-additional-resources-and-support",
+    "content": "Mentorship and Support You will be paired with a mentor who can guide you through the architecture, tools, and processes. Don’t hesitate to ask questions or request assistance."
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "Backend Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "Backend Onboarding",
+    "section": "Conclusion",
+    "route": "/onboarding-process/backend-onboarding",
+    "fragment": "conclusion",
+    "content": "You are now set up and ready to start contributing to the project. We look forward to seeing your contributions and collaboration. Welcome to the team! If you have any questions or run into any issues, please reach out to your mentor or any team member. Happy coding!"
   },
   {
     "breadcrumbs": [
@@ -2336,270 +2480,6 @@
     "route": "/onboarding-process/extension-onboarding",
     "fragment": "conclusion",
     "content": "You are now set up and ready to start developing your browser extension. We look forward to your contributions and collaboration. Welcome to the team! If you have any questions or run into any issues, don't hesitate to reach out to your mentor or any team member. Happy coding!"
-  },
-  {
-    "breadcrumbs": [
-      "Product Documentation",
-      "FAQ"
-    ],
-    "pageType": "guide",
-    "title": "FAQ",
-    "section": "FAQ",
-    "route": "/product-documentation/faq",
-    "fragment": "faq",
-    "content": "Coming Soon!"
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Backend Onboarding"
-    ],
-    "pageType": "guide",
-    "title": "Backend Onboarding",
-    "section": "Backend Onboarding",
-    "route": "/onboarding-process/backend-onboarding",
-    "fragment": "backend-onboarding",
-    "content": "Welcome to the team! We are excited to have you on board as a new Backend Developer. This document will guide you through the onboarding process and help you set up your local development environment with the necessary tools and configurations for C# .NET Core and Google Cloud."
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Backend Onboarding"
-    ],
-    "pageType": "guide",
-    "title": "Backend Onboarding",
-    "section": "Pre-Onboarding Checklist",
-    "route": "/onboarding-process/backend-onboarding",
-    "fragment": "pre-onboarding-checklist",
-    "content": "Before you start, ensure you have the following: A computer with administrative access.Internet connection.An active company Google Cloud account.Access to the team’s repository on Azure DevOps (request access if not already provided).Visual Studio or preferred IDE (e.g., JetBrains Rider) installed."
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Backend Onboarding"
-    ],
-    "pageType": "guide",
-    "title": "Backend Onboarding",
-    "section": "Step 1: Install Required Software",
-    "route": "/onboarding-process/backend-onboarding",
-    "fragment": "step-1-install-required-software",
-    "content": ".NET Core SDK Download and install the latest .NET Core SDK from dotnet.microsoft.com.Verify the installation by running the following command in your terminal:"
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Backend Onboarding"
-    ],
-    "pageType": "guide",
-    "title": "Backend Onboarding",
-    "section": "Step 1: Install Required Software",
-    "route": "/onboarding-process/backend-onboarding",
-    "fragment": "step-1-install-required-software",
-    "content": "Google Cloud SDK Download and install the Google Cloud SDK from cloud.google.com/sdk.Authenticate with your company Google Cloud account:Set the default project:"
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Backend Onboarding"
-    ],
-    "pageType": "guide",
-    "title": "Backend Onboarding",
-    "section": "Step 1: Install Required Software",
-    "route": "/onboarding-process/backend-onboarding",
-    "fragment": "step-1-install-required-software",
-    "content": "Git Download and install Git from git-scm.com.Configure Git with your user information:"
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Backend Onboarding"
-    ],
-    "pageType": "guide",
-    "title": "Backend Onboarding",
-    "section": "Step 1: Install Required Software",
-    "route": "/onboarding-process/backend-onboarding",
-    "fragment": "step-1-install-required-software",
-    "content": "Docker (if required for microservices or containerized environments) Download and install Docker from docker.com.Verify the installation by running:"
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Backend Onboarding"
-    ],
-    "pageType": "guide",
-    "title": "Backend Onboarding",
-    "section": "Step 2: Set Up Your IDE (Visual Studio or Rider)",
-    "route": "/onboarding-process/backend-onboarding",
-    "fragment": "step-2-set-up-your-ide-visual-studio-or-rider",
-    "content": "Download and Install Visual Studio or Rider Download and install Visual Studio or JetBrains Rider."
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Backend Onboarding"
-    ],
-    "pageType": "guide",
-    "title": "Backend Onboarding",
-    "section": "Step 2: Set Up Your IDE (Visual Studio or Rider)",
-    "route": "/onboarding-process/backend-onboarding",
-    "fragment": "step-2-set-up-your-ide-visual-studio-or-rider",
-    "content": "Install Required Extensions/Plugins For Visual Studio, ensure the following workloads are installed:ASP.NET and web developmentAzure development (optional if you use Azure alongside Google Cloud)Install necessary extensions:Resharper (for code productivity, optional for VS users)Google Cloud Tools for Visual StudioFor Rider, you can install relevant plugins for C# development and Google Cloud integration via the JetBrains marketplace."
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Backend Onboarding"
-    ],
-    "pageType": "guide",
-    "title": "Backend Onboarding",
-    "section": "Step 3: Getting Started",
-    "route": "/onboarding-process/backend-onboarding",
-    "fragment": "step-3-getting-started",
-    "content": "Clone the Repository: Use the following command to clone the repository:"
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Backend Onboarding"
-    ],
-    "pageType": "guide",
-    "title": "Backend Onboarding",
-    "section": "Step 3: Getting Started",
-    "route": "/onboarding-process/backend-onboarding",
-    "fragment": "step-3-getting-started",
-    "content": "Set Up Dependencies: Navigate to the project folder and install any required dependencies using:If Docker is used, spin up the necessary services with:"
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Backend Onboarding"
-    ],
-    "pageType": "guide",
-    "title": "Backend Onboarding",
-    "section": "Step 3: Getting Started",
-    "route": "/onboarding-process/backend-onboarding",
-    "fragment": "step-3-getting-started",
-    "content": "Environment Variables: Copy the .env.example file to .env and configure the required environment variables for local development (e.g., database connection strings, Google Cloud credentials).Example:"
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Backend Onboarding"
-    ],
-    "pageType": "guide",
-    "title": "Backend Onboarding",
-    "section": "Step 3: Getting Started",
-    "route": "/onboarding-process/backend-onboarding",
-    "fragment": "step-3-getting-started",
-    "content": "Run the Application: To run the application locally, use the following command:"
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Backend Onboarding"
-    ],
-    "pageType": "guide",
-    "title": "Backend Onboarding",
-    "section": "Step 3: Getting Started",
-    "route": "/onboarding-process/backend-onboarding",
-    "fragment": "step-3-getting-started",
-    "content": "Running Tests: Execute unit tests using:For integration tests, follow the documentation in the tests/ folder."
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Backend Onboarding"
-    ],
-    "pageType": "guide",
-    "title": "Backend Onboarding",
-    "section": "Step 4: Set Up Google Cloud",
-    "route": "/onboarding-process/backend-onboarding",
-    "fragment": "step-4-set-up-google-cloud",
-    "content": "Configure Google Cloud Services: Ensure you have access to the necessary Google Cloud services such as Cloud Storage, Firestore, Pub/Sub, or Compute Engine. Reach out to the DevOps team if you need access to any services or projects."
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Backend Onboarding"
-    ],
-    "pageType": "guide",
-    "title": "Backend Onboarding",
-    "section": "Step 4: Set Up Google Cloud",
-    "route": "/onboarding-process/backend-onboarding",
-    "fragment": "step-4-set-up-google-cloud",
-    "content": "Deploying to Google Cloud: For deployment, follow the deployment documentation available in the repository. Example deployment commands:Ensure you configure the right environment variables for production, staging, or development environments."
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Backend Onboarding"
-    ],
-    "pageType": "guide",
-    "title": "Backend Onboarding",
-    "section": "Step 5: Additional Resources and Support",
-    "route": "/onboarding-process/backend-onboarding",
-    "fragment": "step-5-additional-resources-and-support",
-    "content": "Documentation Familiarize yourself with the project’s documentation available in the repository’s README.md file or the project wiki."
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Backend Onboarding"
-    ],
-    "pageType": "guide",
-    "title": "Backend Onboarding",
-    "section": "Step 5: Additional Resources and Support",
-    "route": "/onboarding-process/backend-onboarding",
-    "fragment": "step-5-additional-resources-and-support",
-    "content": "Team Communication Join the team’s communication channels (Slack, Google Chat, etc.) and introduce yourself."
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Backend Onboarding"
-    ],
-    "pageType": "guide",
-    "title": "Backend Onboarding",
-    "section": "Step 5: Additional Resources and Support",
-    "route": "/onboarding-process/backend-onboarding",
-    "fragment": "step-5-additional-resources-and-support",
-    "content": "Mentorship and Support You will be paired with a mentor who can guide you through the architecture, tools, and processes. Don’t hesitate to ask questions or request assistance."
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "Backend Onboarding"
-    ],
-    "pageType": "guide",
-    "title": "Backend Onboarding",
-    "section": "Conclusion",
-    "route": "/onboarding-process/backend-onboarding",
-    "fragment": "conclusion",
-    "content": "You are now set up and ready to start contributing to the project. We look forward to seeing your contributions and collaboration. Welcome to the team! If you have any questions or run into any issues, please reach out to your mentor or any team member. Happy coding!"
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "QE Onboarding"
-    ],
-    "pageType": "guide",
-    "title": "QE Onboarding",
-    "section": "QE Onboarding",
-    "route": "/onboarding-process/qe-onboarding",
-    "fragment": "qe-onboarding",
-    "content": "Coming Soon!"
-  },
-  {
-    "breadcrumbs": [
-      "Onboarding Process",
-      "SRE Onboarding"
-    ],
-    "pageType": "guide",
-    "title": "SRE Onboarding",
-    "section": "SRE Onboarding",
-    "route": "/onboarding-process/sre-onboarding",
-    "fragment": "sre-onboarding",
-    "content": "Coming Soon!"
   },
   {
     "breadcrumbs": [
@@ -2852,5 +2732,125 @@
     "route": "/onboarding-process/frontend-onboarding",
     "fragment": "conclusion",
     "content": "You are now set up and ready to start contributing to the project. We look forward to seeing your great work and collaboration. Welcome to the team! If you have any questions or run into any issues, do not hesitate to ask for help. Happy coding!"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "QE Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "QE Onboarding",
+    "section": "QE Onboarding",
+    "route": "/onboarding-process/qe-onboarding",
+    "fragment": "qe-onboarding",
+    "content": "Coming Soon!"
+  },
+  {
+    "breadcrumbs": [
+      "Onboarding Process",
+      "SRE Onboarding"
+    ],
+    "pageType": "guide",
+    "title": "SRE Onboarding",
+    "section": "SRE Onboarding",
+    "route": "/onboarding-process/sre-onboarding",
+    "fragment": "sre-onboarding",
+    "content": "Coming Soon!"
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Business Rules"
+    ],
+    "pageType": "guide",
+    "title": "Business Rules",
+    "section": "Business Rules",
+    "route": "/product-documentation/business-rules",
+    "fragment": "business-rules",
+    "content": "Coming Soon!"
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "FAQ"
+    ],
+    "pageType": "guide",
+    "title": "FAQ",
+    "section": "FAQ",
+    "route": "/product-documentation/faq",
+    "fragment": "faq",
+    "content": "Coming Soon!"
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Feature Docs"
+    ],
+    "pageType": "guide",
+    "title": "Feature Docs",
+    "section": "Feature Docs",
+    "route": "/product-documentation/feature-docs",
+    "fragment": "feature-docs",
+    "content": "This document provides an overview of features related to the RiskPhysics project. Each feature is described in detail, its scope, objectives and business flows."
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Feature Docs"
+    ],
+    "pageType": "guide",
+    "title": "Feature Docs",
+    "section": "Feature Docs",
+    "route": "/product-documentation/feature-docs",
+    "fragment": "feature-docs",
+    "content": "Feature Name Description"
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Feature Docs"
+    ],
+    "pageType": "guide",
+    "title": "Feature Docs",
+    "section": "Feature Docs",
+    "route": "/product-documentation/feature-docs",
+    "fragment": "feature-docs",
+    "content": "SaaS Apps"
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Feature Docs"
+    ],
+    "pageType": "guide",
+    "title": "Feature Docs",
+    "section": "Feature Docs",
+    "route": "/product-documentation/feature-docs",
+    "fragment": "feature-docs",
+    "content": "Inventory and profile of SaaS Apps accessed and used including profiles of their settings, known vulnerabilities and risk score."
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Point Of View"
+    ],
+    "pageType": "guide",
+    "title": "Point Of View",
+    "section": "Point Of View",
+    "route": "/product-documentation/point-of-view",
+    "fragment": "point-of-view",
+    "content": "RiskPhysics is a comprehensive Risk Management Solution that empowers you to reduce your attack surface continuously and monitor it proactively. Unlike any other solution RiskPhysics can discover, profile and risk assess any modern application such as SaaS, Web-Based, PWA or Browser Extension. Application sprawl is a real issue, as organizations have hundreds and sometimes thousands of apps in their environment. Because you can't protect what you cannot see, how do you even start prioritizing and focusing on the most critical apps? RiskPhysics utilizes a unique discovery process in combination with ML models, processes, and tools. We train our ML so that you can understand which apps are risky, which apps are sanctioned, sanctioned, new or recently installed. You can then identify apps that pose real security risks, immediately reducing your attack surface as well as potentially reducing costs. RiskPhysics identifies applications by type and categorizes them. For example, applications can be filtered by productivity tools, which allows you to understand exactly which productivity apps are installed in your organization. This allows quick visibility into productivity apps in use that have a high permission risk level. RiskPhysics creates a magnifying glass that saves your risk and compliance teams hundreds of hours trying to manually generate the same outcome with manual audits or spread sheet tracking. RiskPhysics also provides a mapping of which users are using each application, what their role and department are, and the IdP user context, such as if the user is a Google Workspace, Okta authenticated user or a high target user such as a C-level executive likely to be targeted more than other users. RiskPhysics also provides SaaS to SaaS permission mapping based on risk level by consolidating all the permissions apps have between each other across your entire app environment. For example, we can see that a productivity app has permissions to see, edit, and delete your Google presentations, which pose a high risk level, or even allow scripts to make external requests to potentially untrusted sources. Browser Extensions could be declaring permissions allowing them to interact with browser tabs that could be running a SaaS or Web-App with sensitive financial data, screen capturing content and sending it to unknown locations. PWAs could be installed with unnecessary access to local devices though the browser such as the camera, microphone or storage. Once organizations are able to understand the context of these apps, how they are being used and what they are interacting with, their true risk level can be better assessed. With that information, organizations can start governing these apps by proactively authorizing or unauthorize them. Once organizations know which apps are unauthorized, they can start automatically detecting users logging into unauthorized apps.  Visit riskphysics.io to learn how RiskPhysics can help you secure….."
+  },
+  {
+    "breadcrumbs": [
+      "Product Documentation",
+      "Release Notes"
+    ],
+    "pageType": "guide",
+    "title": "Release Notes",
+    "section": "Release Notes",
+    "route": "/product-documentation/release-notes",
+    "fragment": "release-notes",
+    "content": "Coming Soon!"
   }
 ]
