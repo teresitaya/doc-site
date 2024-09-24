@@ -20,7 +20,7 @@ import { filter } from "rxjs";
     preventInitialChildAnimations,
   ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  styleUrl: './app.component.css',
 })
 export class AppComponent implements OnInit {
   title = 'docs-site';
