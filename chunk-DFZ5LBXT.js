@@ -1,1 +1,0 @@
-import"./chunk-P2VZOJAX.js";var t=[{path:"",redirectTo:"documentation-standard",pathMatch:"full"},{path:"",title:"Documentation Standard",children:[{path:"documentation-standard",loadChildren:()=>import("./chunk-TXNDJNGG.js")}]}],a=t;export{a as default};
