@@ -17,7 +17,7 @@
         "build": {
           "builder": "@ng-doc/builder:application",
           "options": {
-            "outputPath": "dist/",
+            "outputPath": "dist/docs-site",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
