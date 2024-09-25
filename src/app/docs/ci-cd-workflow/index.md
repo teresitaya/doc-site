@@ -13,6 +13,7 @@ The CI/CD workflow consists of the following stages:
 4. **QE/Beta Branch**
 5. **Production**
 
+![CI/CD Workflow](assets/img/CI-CD-Workflow.png)
 
 #### 1. Analysis
 - **Activities**: Initial review, research, and analysis of requirements.
@@ -33,7 +34,6 @@ The CI/CD workflow consists of the following stages:
 - **Tools**: Devops.
 - **Outcome**: Approved PR to Beta Environment.
 - **Gate**: PM approval required before promoting the code to QE/Beta.
-![CI/CD Workflow](assets/img/CI-CD-Workflow.png)
 
 #### 4. Beta Branch
 - **Activities**:

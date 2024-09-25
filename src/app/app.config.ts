@@ -46,7 +46,7 @@ export const appConfig: ApplicationConfig = {
             path: 'assets/themes/rp-light.css',
           }
         ],
-        defaultThemeId: 'rp-dark',
+        defaultThemeId: 'rp-light',
       }),
     provideSearchEngine(NgDocDefaultSearchEngine),
     providePageSkeleton(NG_DOC_DEFAULT_PAGE_SKELETON),

@@ -14,3 +14,4 @@ This document provides a detailed overview of the system architecture, best prac
 | [CI/CD Architecture Overview](/architecture-documentation/ci-cd-architecture-overview) | Describes the Continuous Integration and Continuous Deployment pipeline, including build steps, testing, and deployment processes. |
 | [Incident Management](/architecture-documentation/incident-management)  | Defines the processes and protocols for handling production incidents, including response times and escalation procedures. |
 | [Security Standard](/architecture-documentation/security-standard)  | Defines the processes and protocols for handling security in the development process |
+| [Architectural Decision Records](/architecture-documentation/architectural-decision-records)  | Defines the structure of Architectural Decision Records to track Architectural definition over the time |
