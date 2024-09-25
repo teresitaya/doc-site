@@ -265,6 +265,30 @@
   },
   {
     "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "Architectural Decision Records"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architecture Documentation"
+    ],
+    "pageType": "guide",
+    "title": "Architecture Documentation",
+    "section": "Architecture Documentation",
+    "route": "/architecture-documentation/architecture-documentation",
+    "fragment": "architecture-documentation",
+    "content": "Defines the structure of Architectural Decision Records to track Architectural definition over the time"
+  },
+  {
+    "breadcrumbs": [
       "CI-CD Workflow",
       "CI-CD Workflow"
     ],
@@ -381,7 +405,7 @@
     "section": "3. Development Branch",
     "route": "/ci-cd-workflow/ci-cd-workflow",
     "fragment": "3-development-branch",
-    "content": "Activities:Build: Compile the code.Security Scan: Perform a security scan of the code.Unit Test: Execute unit tests to verify the functionality.Code Analysis: Analyze the code for quality and adherence to standards.Review Review the build results, security scan reports, unit test results, and code analysis.Tools: Devops.Outcome: Approved PR to Beta Environment.Gate: PM approval required before promoting the code to QE/Beta. "
+    "content": "Activities:Build: Compile the code.Security Scan: Perform a security scan of the code.Unit Test: Execute unit tests to verify the functionality.Code Analysis: Analyze the code for quality and adherence to standards.Review Review the build results, security scan reports, unit test results, and code analysis.Tools: Devops.Outcome: Approved PR to Beta Environment.Gate: PM approval required before promoting the code to QE/Beta."
   },
   {
     "breadcrumbs": [
@@ -884,6 +908,214 @@
     "route": "/product-documentation/product-documentation",
     "fragment": "product-documentation",
     "content": "Defines the core logic and rules governing the browser extension to ensure consistent functionality."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "Architectural Decision Records"
+    ],
+    "pageType": "guide",
+    "title": "Architectural Decision Records",
+    "section": "Architectural Decision Records (ADR)",
+    "route": "/architecture-documentation/architectural-decision-records/architectural-decision-records",
+    "fragment": "architectural-decision-records-adr",
+    "content": "An Architectural Decision Record (ADR) is a document that captures an important architectural decision made along with its context and consequences. ADRs serve as a lightweight documentation method to track the history of architectural decisions in a project and provide clarity to team members about why specific decisions were made."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "Architectural Decision Records"
+    ],
+    "pageType": "guide",
+    "title": "Architectural Decision Records",
+    "section": "Why Use ADRs?",
+    "route": "/architecture-documentation/architectural-decision-records/architectural-decision-records",
+    "fragment": "why-use-adrs",
+    "content": "Traceability: ADRs provide traceable records of architectural decisions.Transparency: They allow all team members to understand the reasoning behind a decision.Accountability: They make the decision-making process explicit.History: ADRs preserve the decision-making process, which can be helpful when maintaining or refactoring the system."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "Architectural Decision Records"
+    ],
+    "pageType": "guide",
+    "title": "Architectural Decision Records",
+    "section": "ADR Structure",
+    "route": "/architecture-documentation/architectural-decision-records/architectural-decision-records",
+    "fragment": "adr-structure",
+    "content": "Each ADR typically includes the following sections:"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "Architectural Decision Records"
+    ],
+    "pageType": "guide",
+    "title": "Architectural Decision Records",
+    "section": "ADR Structure",
+    "route": "/architecture-documentation/architectural-decision-records/architectural-decision-records",
+    "fragment": "adr-structure",
+    "content": "Title"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "Architectural Decision Records"
+    ],
+    "pageType": "guide",
+    "title": "Architectural Decision Records",
+    "section": "ADR Structure",
+    "route": "/architecture-documentation/architectural-decision-records/architectural-decision-records",
+    "fragment": "adr-structure",
+    "content": ": A short but descriptive title."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "Architectural Decision Records"
+    ],
+    "pageType": "guide",
+    "title": "Architectural Decision Records",
+    "section": "ADR Structure",
+    "route": "/architecture-documentation/architectural-decision-records/architectural-decision-records",
+    "fragment": "adr-structure",
+    "content": "Date"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "Architectural Decision Records"
+    ],
+    "pageType": "guide",
+    "title": "Architectural Decision Records",
+    "section": "ADR Structure",
+    "route": "/architecture-documentation/architectural-decision-records/architectural-decision-records",
+    "fragment": "adr-structure",
+    "content": ": The date the decision was made."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "Architectural Decision Records"
+    ],
+    "pageType": "guide",
+    "title": "Architectural Decision Records",
+    "section": "ADR Structure",
+    "route": "/architecture-documentation/architectural-decision-records/architectural-decision-records",
+    "fragment": "adr-structure",
+    "content": "Status"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "Architectural Decision Records"
+    ],
+    "pageType": "guide",
+    "title": "Architectural Decision Records",
+    "section": "ADR Structure",
+    "route": "/architecture-documentation/architectural-decision-records/architectural-decision-records",
+    "fragment": "adr-structure",
+    "content": ": Current status of the decision (e.g., proposed, accepted, deprecated)."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "Architectural Decision Records"
+    ],
+    "pageType": "guide",
+    "title": "Architectural Decision Records",
+    "section": "ADR Structure",
+    "route": "/architecture-documentation/architectural-decision-records/architectural-decision-records",
+    "fragment": "adr-structure",
+    "content": "Context"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "Architectural Decision Records"
+    ],
+    "pageType": "guide",
+    "title": "Architectural Decision Records",
+    "section": "ADR Structure",
+    "route": "/architecture-documentation/architectural-decision-records/architectural-decision-records",
+    "fragment": "adr-structure",
+    "content": ": The context or problem statement that prompted the decision."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "Architectural Decision Records"
+    ],
+    "pageType": "guide",
+    "title": "Architectural Decision Records",
+    "section": "ADR Structure",
+    "route": "/architecture-documentation/architectural-decision-records/architectural-decision-records",
+    "fragment": "adr-structure",
+    "content": "Decision"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "Architectural Decision Records"
+    ],
+    "pageType": "guide",
+    "title": "Architectural Decision Records",
+    "section": "ADR Structure",
+    "route": "/architecture-documentation/architectural-decision-records/architectural-decision-records",
+    "fragment": "adr-structure",
+    "content": ": The decision made, along with reasons."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "Architectural Decision Records"
+    ],
+    "pageType": "guide",
+    "title": "Architectural Decision Records",
+    "section": "ADR Structure",
+    "route": "/architecture-documentation/architectural-decision-records/architectural-decision-records",
+    "fragment": "adr-structure",
+    "content": "Consequences"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "Architectural Decision Records"
+    ],
+    "pageType": "guide",
+    "title": "Architectural Decision Records",
+    "section": "ADR Structure",
+    "route": "/architecture-documentation/architectural-decision-records/architectural-decision-records",
+    "fragment": "adr-structure",
+    "content": ": The positive and negative consequences of the decision."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "Architectural Decision Records"
+    ],
+    "pageType": "guide",
+    "title": "Architectural Decision Records",
+    "section": "RiskPhysics ADRs List",
+    "route": "/architecture-documentation/architectural-decision-records/architectural-decision-records",
+    "fragment": "riskphysics-adrs-list",
+    "content": "For more information about RiskPhysics ADRs, please check RiskPhysics ADRs List"
   },
   {
     "breadcrumbs": [
@@ -2852,5 +3084,57 @@
     "route": "/product-documentation/release-notes",
     "fragment": "release-notes",
     "content": "Coming Soon!"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "ADRs List"
+    ],
+    "pageType": "guide",
+    "title": "ADRs List",
+    "section": "RiskPhysics ADRs List",
+    "route": "/architecture-documentation/architectural-decision-records/adrs-list",
+    "fragment": "riskphysics-adrs-list",
+    "content": "ADR Description"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "ADRs List"
+    ],
+    "pageType": "guide",
+    "title": "ADRs List",
+    "section": "RiskPhysics ADRs List",
+    "route": "/architecture-documentation/architectural-decision-records/adrs-list",
+    "fragment": "riskphysics-adrs-list",
+    "content": "Angular and Micro Frontends"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "ADRs List"
+    ],
+    "pageType": "guide",
+    "title": "ADRs List",
+    "section": "RiskPhysics ADRs List",
+    "route": "/architecture-documentation/architectural-decision-records/adrs-list",
+    "fragment": "riskphysics-adrs-list",
+    "content": "Choosing UI Framework"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "ADRs List"
+    ],
+    "pageType": "guide",
+    "title": "ADRs List",
+    "section": "Angular and Micro Frontends",
+    "route": "/architecture-documentation/architectural-decision-records/adrs-list",
+    "fragment": "angular-and-micro-frontends",
+    "content": "Title: Choosing Angular and Micro Frontends with NxDate: 2024-09-25Status: Accepted Context: We need a scalable and maintainable frontend architecture for our application that supports independent teams working on different parts of the system. The application requires a robust, component-driven framework with strong tooling and support for building modular applications. Additionally, we want the ability to break the application into micro frontends to enable independent deployment and scaling of different UI modules. We evaluated several options, including Angular, React, Vue.js, and Svelte, as well as different monorepo management tools. Decision: We chose to use Angular as the primary UI framework and Nx as the tool to manage micro frontends. This decision was made based on the following factors: Component Reusability: Angular provides a strong component-driven architecture with built-in support for features like dependency injection, forms, routing, and HTTP services, reducing the need for additional libraries.Enterprise-Grade Framework: Angular's comprehensive tooling and built-in TypeScript support provide the structure needed for large-scale applications, particularly when multiple teams are involved.Nx for Monorepo and Micro Frontends: Nx provides a monorepo structure that simplifies the management of multiple frontends and libraries, making it easy to share code between micro frontends. Its generators, code scaffolding, and built-in testing support reduce manual overhead.Separation of Concerns: With micro frontends, we can independently develop, test, and deploy different sections of the application, improving agility.Team Expertise: The team has prior experience with Angular, which will speed up development and reduce learning curves. Consequences: Positive:Maintainability: The component-based architecture and modularity of Angular and Nx will make the application easier to maintain and scale.Independent Deployment: Using micro frontends allows different teams to develop, test, and deploy UI modules independently without affecting other parts of the application.Improved Developer Productivity: Nx's tooling and generators will accelerate development and reduce errors.Future-Proofing: Angular's frequent updates and strong community support ensure long-term viability.Negative:Steeper Learning Curve: New team members unfamiliar with Angular and Nx may experience a learning curve.Initial Setup Overhead: Setting up a micro frontend architecture adds complexity to the initial project configuration."
   }
 ]

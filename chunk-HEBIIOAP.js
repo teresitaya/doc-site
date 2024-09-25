@@ -1,0 +1,1 @@
+import"./chunk-P2VZOJAX.js";var t=[{path:"",redirectTo:"architectural-decision-records",pathMatch:"full"},{path:"",title:"Architectural Decision Records",children:[{path:"architectural-decision-records",loadChildren:()=>import("./chunk-LFV77IOZ.js")},{path:"adrs-list",loadChildren:()=>import("./chunk-7LVBILMH.js")}]}],r=t;export{r as default};
