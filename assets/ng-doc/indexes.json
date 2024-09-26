@@ -2188,18 +2188,6 @@
   {
     "breadcrumbs": [
       "Architecture Documentation",
-      "Frontend Architecture Overview"
-    ],
-    "pageType": "guide",
-    "title": "Frontend Architecture Overview",
-    "section": "Frontend Architecture Overview",
-    "route": "/architecture-documentation/frontend-architecture-overview",
-    "fragment": "frontend-architecture-overview",
-    "content": "Coming Soon!"
-  },
-  {
-    "breadcrumbs": [
-      "Architecture Documentation",
       "Incident Management"
     ],
     "pageType": "guide",
