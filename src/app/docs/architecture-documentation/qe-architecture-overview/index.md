@@ -46,7 +46,7 @@ This document covers the Testing Strategies for all sprints in the software deve
     - Configure scripts to run integration tests automatically after build using CI/CD tools.
     - Review and adjust regression testing strategy based on results and feedback.
     - Configure scripts to run integration tests automatically after merging local to dev branches using CI/CD tools.
-    - Exploratory Testing: Performed to discover unforeseen defects.
+  - **Exploratory Testing**: Performed to discover unforeseen defects.
 
 #### Entry and Exit Criteria
 ![QE Process](assets/img/QE_Process.png)
@@ -77,7 +77,7 @@ This document covers the Testing Strategies for all sprints in the software deve
     - Regression and critical acceptance tests will be automated to enable rapid execution in each sprint.
     - Unit tests will be automated by developers for all new functionalities.
   - **Automation Tools**
-    - Check [Test Automation Framework](/architecture-documentation/architectural-decision-records/adrs-list#test-automation-framework)
+    - Check [Test Automation Framework ADR](/architecture-documentation/architectural-decision-records/adrs-list#test-automation-framework)
     - **Handling test execution in the cloud**:
     | VMs | Kubernetes|
     |----------------------------|-----------------------------------------------------------------------------------------------|

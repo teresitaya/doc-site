@@ -75,7 +75,6 @@ We have selected **Playwright** as our test automation framework for the followi
 
   - **Negative**:
     - Slight learning curve for team members unfamiliar with Playwright.
-    - Playwright lacks a robust script recorder like Selenium IDE, which may require additional manual effort during test creation.
 
 **References**:
 - (2024, April 11). Cypress Documentation: Comprehensive Cypress Test Automation Guide. Retrieved September 3, 2024, from [https://docs.cypress.io/guides/overview/why-cypress](https://docs.cypress.io/guides/overview/why-cypress)
