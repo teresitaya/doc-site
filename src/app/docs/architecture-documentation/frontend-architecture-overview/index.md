@@ -1,3 +1,3 @@
 # {{ NgDocPage.title }}
 
-![Architecture Overview](assets/img/Frontend-Architecture-2.png)
+![Architecture Overview](assets/img/Frontend-Architecture.png)
