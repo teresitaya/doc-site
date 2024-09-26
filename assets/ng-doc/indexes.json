@@ -2219,7 +2219,151 @@
     "section": "QE Architecture Overview",
     "route": "/architecture-documentation/qe-architecture-overview",
     "fragment": "qe-architecture-overview",
-    "content": "Coming Soon!"
+    "content": "The purpose of this document is to define the testing strategy for RiskPhysics, which will be developed using the Scrum agile methodology. It describes how testing will be conducted iteratively and incrementally to ensure that the software meets the specified requirements and maintains high quality."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "QE Architecture Overview"
+    ],
+    "pageType": "guide",
+    "title": "QE Architecture Overview",
+    "section": "Scope",
+    "route": "/architecture-documentation/qe-architecture-overview",
+    "fragment": "scope",
+    "content": "This document covers the Testing Strategies for all sprints in the software development life cycle of RiskPhysics. It defines the types of tests, entry and exit criteria, testing environments, and the roles and responsibilities within the testing team."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "QE Architecture Overview"
+    ],
+    "pageType": "guide",
+    "title": "QE Architecture Overview",
+    "section": "Testing Objectives",
+    "route": "/architecture-documentation/qe-architecture-overview",
+    "fragment": "testing-objectives",
+    "content": "Continuous Quality Assurance: Validate that each product increment meets the specified functional and non-functional requirements.Early Defect Detection: Identify and fix defects within each sprint to prevent the accumulation of issues.Adaptability: Adjust testing according to changes in requirements and priorities of each sprint.Continuous Improvement: Provide rapid and continuous feedback to improve development and testing processes in each sprint."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "QE Architecture Overview"
+    ],
+    "pageType": "guide",
+    "title": "QE Architecture Overview",
+    "section": "Testing Scope",
+    "route": "/architecture-documentation/qe-architecture-overview",
+    "fragment": "testing-scope",
+    "content": "Areas to be Tested:During each sprint, testing will focus on the User Stories and tasks defined in the Sprint Backlog.A review of existing functionalities (regression testing) will be conducted to ensure that new developments do not affect current features.Areas Out of Scope:TBD"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "QE Architecture Overview"
+    ],
+    "pageType": "guide",
+    "title": "QE Architecture Overview",
+    "section": "Testing Approach",
+    "route": "/architecture-documentation/qe-architecture-overview",
+    "fragment": "testing-approach",
+    "content": "Types of TestingUnit Testing: Developers will write and execute unit tests for each new user story, work item or task.Integration Testing: Conducted to ensure that components developed in different sprints work correctly together. To achieve this goal we need:Identify the components.Establish the integration criteria.Define which integrations will be tested.Include the tests in the sprint planning (In the first moment at least the identification of test cases and manual execution).Define which Test Cases will be automated.Automating tests to ensure they run consistently and include a tag to classify the test.Include a tag in the pull request that specifies the type of test based on the change made.Configure scripts to run integration tests automatically after build using CI/CD tools (include a tag in the pull request that specifies the type of test and also include in test ). They will be executed every time a tag with the integration type is included in a pull request and this one is completed.System Testing: Validate that the complete system, including new features, meets the specified requirements. To achieve this goal we need:Identify System Test Cases for functional and non-functional testEnsure the environment is as similar to production as possible to obtain accurate results.Prepare the test data required to execute the system test cases.Automating tests to ensure they run consistently.Configure scripts to run integration tests automatically after merging dev to beta or beta to prod branches using CI/CD tools.Regression Testing: Automated or manual regression tests will be executed to verify that changes do not introduce new defects. To achieve this goal we need:Identify Regression Test CasesDefine which of these regressions will be testedInclude the tests in the sprint planning (In the first moment at least the manual execution).Define which Test Cases will be automated.Automating tests to ensure they run consistently and include a tag to classify the test.Configure scripts to run integration tests automatically after build using CI/CD tools.Review and adjust regression testing strategy based on results and feedback.Configure scripts to run integration tests automatically after merging local to dev branches using CI/CD tools.Exploratory Testing: Performed to discover unforeseen defects."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "QE Architecture Overview"
+    ],
+    "pageType": "guide",
+    "title": "QE Architecture Overview",
+    "section": "Entry and Exit Criteria",
+    "route": "/architecture-documentation/qe-architecture-overview",
+    "fragment": "entry-and-exit-criteria",
+    "content": "Entry CriteriaDetailed and approved user stories.Testing environment set up and accessible.Test cases designed for the sprint's user stories.Test data prepared and available.Exit CriteriaAll user stories of the sprint have been tested and meet the acceptance criteria.No critical defects remain open related to the sprint functionalities.Critical regression tests have passed.Positive feedback from sprint reviews."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "QE Architecture Overview"
+    ],
+    "pageType": "guide",
+    "title": "QE Architecture Overview",
+    "section": "Testing Environment",
+    "route": "/architecture-documentation/qe-architecture-overview",
+    "fragment": "testing-environment",
+    "content": "Hardware and Software RequirementsDev environment.Beta environment that mirrors production.Production environment.Configurations adaptable to test specific sprint functionalities.Kubernetes for running automated tests.Test DataTest data will be updated in each sprint to reflect new testing scenarios based on user stories.Testing ToolsTest management tool: Azure Devops."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "QE Architecture Overview"
+    ],
+    "pageType": "guide",
+    "title": "QE Architecture Overview",
+    "section": "Test Automation",
+    "route": "/architecture-documentation/qe-architecture-overview",
+    "fragment": "test-automation",
+    "content": "Automation StrategyRegression and critical acceptance tests will be automated to enable rapid execution in each sprint.Unit tests will be automated by developers for all new functionalities.Automation ToolsCheck Test Automation FrameworkHandling test execution in the cloud:VMsKubernetesTests can be executed on VMs by installing the Playwright library and running tests similarly to a local environment.Tests can be executed in Kubernetes by deploying Playwright containers. Kubernetes can manage scaling and distribution of test executions using Playwright's built-in support for running tests in parallel.-Automation ScopeIn each sprint, automated tests will be added for new functionalities and for regression coverage"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "QE Architecture Overview"
+    ],
+    "pageType": "guide",
+    "title": "QE Architecture Overview",
+    "section": "Defect Management",
+    "route": "/architecture-documentation/qe-architecture-overview",
+    "fragment": "defect-management",
+    "content": "Defect Management ProcessDetection: Defects found during the sprint will be logged immediately in Azure DevOps.Classification and Prioritization: Defects will be classified and prioritized in the daily Scrum meeting.Resolution: Developers will work on fixing defects as part of the sprint work.Verification: Testers will verify the fix and close the defect if it is adequately resolved.Defect Tracking ToolsAzure DevOpsPlanning and SchedulingTesting ScheduleSprint Testing: Will be conducted during each sprint, with daily reviews and immediate feedback.Release Testing: Will be conducted at the end of each release, integrating tests from all sprints.Effort EstimationTesting efforts will be estimated during sprint planning for each user story and task."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "QE Architecture Overview"
+    ],
+    "pageType": "guide",
+    "title": "QE Architecture Overview",
+    "section": "Impediments",
+    "route": "/architecture-documentation/qe-architecture-overview",
+    "fragment": "impediments",
+    "content": "To manage and address impediments effectively by utilizing Azure DevOps work items. This approach helps in promptly identifying, tracking, and resolving issues that block or delay progress within the project."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "QE Architecture Overview"
+    ],
+    "pageType": "guide",
+    "title": "QE Architecture Overview",
+    "section": "Test Metrics and Reporting",
+    "route": "/architecture-documentation/qe-architecture-overview",
+    "fragment": "test-metrics-and-reporting",
+    "content": "Key MetricsNumber of user stories completed and tested in each sprint.Number of defects found and fixed in each sprint.Average time to fix defects in each sprint.Automated test coverage.ReportsDaily test status report during the sprint.Report at the end of each sprint and at the end of each release."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "QE Architecture Overview"
+    ],
+    "pageType": "guide",
+    "title": "QE Architecture Overview",
+    "section": "Test Closure",
+    "route": "/architecture-documentation/qe-architecture-overview",
+    "fragment": "test-closure",
+    "content": "Closure ActivitiesTest feedback at the end of each sprint.Preparation of the final test report at the end of each release.Lessons LearnedDocument lessons learned during each sprint retrospective to improve in future sprints."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "QE Architecture Overview"
+    ],
+    "pageType": "guide",
+    "title": "QE Architecture Overview",
+    "section": "Appendices",
+    "route": "/architecture-documentation/qe-architecture-overview",
+    "fragment": "appendices",
+    "content": "Supporting Documentation[Include links or references to any additional documentation, such as testing policies, test case templates, etc.]"
   },
   {
     "breadcrumbs": [
@@ -3132,9 +3276,48 @@
     ],
     "pageType": "guide",
     "title": "ADRs List",
+    "section": "RiskPhysics ADRs List",
+    "route": "/architecture-documentation/architectural-decision-records/adrs-list",
+    "fragment": "riskphysics-adrs-list",
+    "content": "Test Automation Framework"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "ADRs List"
+    ],
+    "pageType": "guide",
+    "title": "ADRs List",
+    "section": "RiskPhysics ADRs List",
+    "route": "/architecture-documentation/architectural-decision-records/adrs-list",
+    "fragment": "riskphysics-adrs-list",
+    "content": "Choosing Test Automation Framework"
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "ADRs List"
+    ],
+    "pageType": "guide",
+    "title": "ADRs List",
     "section": "Angular and Micro Frontends",
     "route": "/architecture-documentation/architectural-decision-records/adrs-list",
     "fragment": "angular-and-micro-frontends",
     "content": "Title: Choosing Angular and Micro Frontends with NxDate: 2024-09-25Status: Accepted Context: We need a scalable and maintainable frontend architecture for our application that supports independent teams working on different parts of the system. The application requires a robust, component-driven framework with strong tooling and support for building modular applications. Additionally, we want the ability to break the application into micro frontends to enable independent deployment and scaling of different UI modules. We evaluated several options, including Angular, React, Vue.js, and Svelte, as well as different monorepo management tools. Decision: We chose to use Angular as the primary UI framework and Nx as the tool to manage micro frontends. This decision was made based on the following factors: Component Reusability: Angular provides a strong component-driven architecture with built-in support for features like dependency injection, forms, routing, and HTTP services, reducing the need for additional libraries.Enterprise-Grade Framework: Angular's comprehensive tooling and built-in TypeScript support provide the structure needed for large-scale applications, particularly when multiple teams are involved.Nx for Monorepo and Micro Frontends: Nx provides a monorepo structure that simplifies the management of multiple frontends and libraries, making it easy to share code between micro frontends. Its generators, code scaffolding, and built-in testing support reduce manual overhead.Separation of Concerns: With micro frontends, we can independently develop, test, and deploy different sections of the application, improving agility.Team Expertise: The team has prior experience with Angular, which will speed up development and reduce learning curves. Consequences: Positive:Maintainability: The component-based architecture and modularity of Angular and Nx will make the application easier to maintain and scale.Independent Deployment: Using micro frontends allows different teams to develop, test, and deploy UI modules independently without affecting other parts of the application.Improved Developer Productivity: Nx's tooling and generators will accelerate development and reduce errors.Future-Proofing: Angular's frequent updates and strong community support ensure long-term viability.Negative:Steeper Learning Curve: New team members unfamiliar with Angular and Nx may experience a learning curve.Initial Setup Overhead: Setting up a micro frontend architecture adds complexity to the initial project configuration."
+  },
+  {
+    "breadcrumbs": [
+      "Architecture Documentation",
+      "Architectural Decision Records",
+      "ADRs List"
+    ],
+    "pageType": "guide",
+    "title": "ADRs List",
+    "section": "Test Automation Framework",
+    "route": "/architecture-documentation/architectural-decision-records/adrs-list",
+    "fragment": "test-automation-framework",
+    "content": "Title: Selection of Test Automation FrameworkDate: 2024-09-26Status: Accepted Context: We are building a large-scale application requiring robust end-to-end (E2E) testing, integration with CI/CD pipelines, cross-browser support, and fast feedback loops. Our testing framework must provide flexibility in handling authentication, API testing, and parallel test execution. Additionally, ease of setup, debugging capabilities, and community support are critical to accelerating our development workflow. After evaluating various tools like Selenium, Playwright, and Cypress, we considered the following requirements: Support for multiple programming languages (Java, TypeScript, JavaScript)Cross-browser support (Chrome, Firefox, Edge, Safari)Parallel execution and CI/CD integrationFast execution times for faster feedbackBuilt-in support for debugging, API testing, and cookie handlingAdditional Tools:JUnit5 + Playwright with Java: Chosen as our primary testing stack to leverage Java for backend testing with a familiar toolchain.Maven: For dependency management and to streamline Playwright test commands into our CI/CD pipeline.Postman: For API testing to complement Playwright's E2E tests.JMeter: For performance and load testing.Alternatives Considered:Selenium: While Selenium supports multiple languages and browsers, the WebDriver-based architecture introduces complexity in test setup and slower execution. It also requires additional tools for debugging and API testing, which could slow down our CI/CD pipeline.Cypress: Cypress offers an excellent JavaScript-based testing experience, fast execution, and strong debugging features. However, it lacks comprehensive cross-browser support (limited to Chrome, Edge, and Firefox in beta) and has no mobile device testing support, making it unsuitable for our requirements. Decision: We have selected Playwright as our test automation framework for the following reasons: Language Support: Playwright supports Java, JavaScript, TypeScript, and Python, giving us flexibility in language choice.Browser Support: Playwright supports Chrome, Firefox, WebKit (Safari, Edge), which fulfills our cross-browser testing requirements.Execution Speed: Playwright's direct browser control makes test execution significantly faster compared to Selenium's WebDriver-based architecture.Built-in Features: Playwright offers built-in handling for cookies, local storage, and automatic waits, simplifying complex testing scenarios.Parallel Execution: Playwright supports out-of-the-box parallel test execution without the need for additional setup like Selenium Grid.CI/CD Integration: It integrates easily with most CI/CD pipelines, aligning well with our automation goals.Debugging Tools: It offers strong debugging tools, including network tracing and time-travel debugging features that simplify the development process. Consequences: Positive:Faster test execution and reduced test flakiness due to Playwright's direct browser control and automatic waits.Simplified CI/CD integration and parallel test execution, speeding up our test feedback loop.Comprehensive debugging and network tracing tools will reduce debugging time during development.Built-in mobile device testing support allows us to future-proof the framework for mobile platforms.Negative:Slight learning curve for team members unfamiliar with Playwright.Playwright lacks a robust script recorder like Selenium IDE, which may require additional manual effort during test creation. References: (2024, April 11). Cypress Documentation: Comprehensive Cypress Test Automation Guide. Retrieved September 3, 2024, from https://docs.cypress.io/guides/overview/why-cypressThe Selenium Browser Automation Project. (2023, November 17). Selenium. Retrieved September 3, 2024, from https://www.selenium.dev/documentationInstallation. (n.d.). Playwright. Retrieved September 3, 2024, from https://playwright.dev/docs/intro"
   }
 ]
