@@ -1,3 +1,3 @@
 # {{ NgDocPage.title }}
 
-Coming Soon!
+![Architecture Overview](assets/img/Frontend-Architecture.png)

@@ -49,7 +49,7 @@ This document covers the Testing Strategies for all sprints in the software deve
   - **Exploratory Testing**: Performed to discover unforeseen defects.
 
 #### Entry and Exit Criteria
-![QE Process](assets/img/QE_Process.png)
+![QE Process](assets/img/QE-Process.png)
 - **Entry Criteria**
   - Detailed and approved user stories.
   - Testing environment set up and accessible.

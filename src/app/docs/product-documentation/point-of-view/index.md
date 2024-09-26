@@ -9,7 +9,7 @@ RiskPhysics also provides a mapping of which users are using each application, w
 RiskPhysics also provides SaaS to SaaS permission mapping based on risk level by consolidating all the permissions apps have between each other across your entire app environment. For example, we can see that a productivity app has permissions to see, edit, and delete your Google presentations, which pose a high risk level, or even allow scripts to make external requests to potentially untrusted sources. Browser Extensions could be declaring permissions allowing them to interact with browser tabs that could be running a SaaS or Web-App with sensitive financial data, screen capturing content and sending it to unknown locations. PWAs could be installed with unnecessary access to local devices though the browser such as the camera, microphone or storage.
 
 Once organizations are able to understand the context of these apps, how they are being used and what they are interacting with, their true risk level can be better assessed. With that information, organizations can start governing these apps by proactively authorizing or unauthorize them. Once organizations know which apps are unauthorized, they can start automatically detecting users logging into unauthorized apps.
-![RiskPhysics](assets/img/proposal_withoutbackground.png)
+![RiskPhysics](assets/img/proposal-withoutbackground.png)
 
 Visit [riskphysics.io](riskphysics.io) to learn how RiskPhysics can help you secure…..
 
